@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>X Digest</title>
+  <title>X Digest - 2026-01-27</title>
   <style>
     :root {
       --bg: #0a0a0a;
@@ -44,6 +44,12 @@
       font-size: 0.9rem;
     }
     
+    .count {
+      color: var(--accent);
+      font-size: 0.85rem;
+      margin-top: 0.25rem;
+    }
+    
     .tweet {
       background: var(--card-bg);
       border: 1px solid var(--border);
@@ -62,6 +68,7 @@
       align-items: center;
       gap: 0.5rem;
       margin-bottom: 0.5rem;
+      flex-wrap: wrap;
     }
     
     .author {
@@ -74,16 +81,25 @@
     
     .category {
       margin-left: auto;
-      font-size: 0.75rem;
+      font-size: 0.7rem;
       background: var(--border);
       padding: 0.2rem 0.5rem;
       border-radius: 4px;
       color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
     }
+    
+    .category.chips { background: #7c3aed22; color: #a78bfa; }
+    .category.ai { background: #3b82f622; color: #60a5fa; }
+    .category.tech-biz { background: #10b98122; color: #34d399; }
+    .category.scuttlebutt { background: #f59e0b22; color: #fbbf24; }
+    .category.scandal { background: #ef444422; color: #f87171; }
     
     .tweet-text {
       margin-bottom: 0.75rem;
       white-space: pre-wrap;
+      word-wrap: break-word;
     }
     
     .tweet-meta {
@@ -91,6 +107,7 @@
       gap: 1rem;
       font-size: 0.85rem;
       color: var(--text-muted);
+      flex-wrap: wrap;
     }
     
     .tweet-link {
@@ -111,41 +128,298 @@
     
     .stats {
       display: flex;
-      gap: 1rem;
+      gap: 0.75rem;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>X Digest</h1>
-    <p class="date">No digest generated yet</p>
+    <p class="date">Tuesday, 27 January 2026</p>
+    <p class="count" id="count"></p>
   </header>
   
-  <main id="tweets">
-    <p class="empty">Waiting for first digest run...</p>
-  </main>
+  <main id="tweets"></main>
   
   <script>
-    // Digest data will be injected here by the generator script
-    const digestData = null;
+    const digestData = {
+  "date": "Tuesday, 27 January 2026",
+  "generated": "2026-01-26T23:35:40.895Z",
+  "count": 25,
+  "tweets": [
+    {
+      "id": "2015931523959292381",
+      "author": "Rohan Paul",
+      "handle": "unknown",
+      "text": "ARK Invest forecasts that general purpose AI-driven automation will unlock a ~$26T annual market across factories and homes.\n\nManufacturing robots are scaling, and new platforms like quadrupeds and humanoids are beginning to spread beyond fixed tasks.\n\nRobots are doubling labor productivity in manufacturing, and can yield a ~$13T opportunity.",
+      "url": "https://x.com/undefined/status/2015931523959292381",
+      "likes": 0,
+      "retweets": 0,
+      "category": "AI"
+    },
+    {
+      "id": "2015931199106253302",
+      "author": "Chamath Palihapitiya",
+      "handle": "unknown",
+      "text": "California is help captive by a handful of Machiavellian Union CEOs - not the union members!\n\nThese union organizers should have the courage to inform their dues paying members that they are about to torch the California economy by destroying the tech community in California with this \"Billionaire Tax\".\n\nThis will drive California into bankruptcy and destroy the earnings of their union members when the bottom falls out of the California budget.\n\nHave the courage to confront your dues paying members and tell them what you've done!",
+      "url": "https://x.com/undefined/status/2015931199106253302",
+      "likes": 0,
+      "retweets": 0,
+      "category": "AI"
+    },
+    {
+      "id": "2015890652375216524",
+      "author": "RevenueCat",
+      "handle": "unknown",
+      "text": "Simon from BetterCreating wants to build an app with you.\n\nTurn his Notion-based systems into a mobile app where users can download, create, and share AI coaches.\n\nEnter Shipyard 2026 → win $20,000 + launch with a built-in audience.",
+      "url": "https://x.com/undefined/status/2015890652375216524",
+      "likes": 0,
+      "retweets": 0,
+      "category": "AI"
+    },
+    {
+      "id": "2015929966341370016",
+      "author": "ADWEEK",
+      "handle": "unknown",
+      "text": "An open letter from 60 Minnesota CEOs, including leaders from @BestBuy, @Cargill, and @Target, marks a rare corporate engagement in politics during divisive times.\n\nIssued on January 25 by the Minnesota Chamber of Commerce following two deaths at anti-ICE protests, the letter calls for \"immediate deescalation of tensions\" and cooperation among officials. \n\nWhile it shows a willingness to engage, retail analyst Bruce Winder notes its neutral tone may limit its impact, as it avoids taking a specific stance, minimizing potential backlash for the retailers involved. https://t.co/cbcFMsfcJo",
+      "url": "https://x.com/undefined/status/2015929966341370016",
+      "likes": 0,
+      "retweets": 0,
+      "category": "AI"
+    },
+    {
+      "id": "2015929704956739623",
+      "author": "Rohan Paul",
+      "handle": "unknown",
+      "text": "The growth rate of ChatGPT's web traffic is speeding up very nice.\n\n2024 jumped +74.67% over 2023, and then 2025 jumped again by +105.50% over 2024, landing at roughly 60B total website visits worldwide across all traffic sources.\n\nSimilarweb ranked chatgpt #5 globally in Dec-25 for “most visited websites” category.\n\nChart from @Similarweb",
+      "url": "https://x.com/undefined/status/2015929704956739623",
+      "likes": 0,
+      "retweets": 0,
+      "category": "AI"
+    },
+    {
+      "id": "2015924753052422520",
+      "author": "Rohan Paul",
+      "handle": "unknown",
+      "text": "RT @rohanpaul_ai: AI mediated consumer revenue is growing ~105% per year from ~$20B in 2025 and is reaching ~$900B in 2030.\n\nLead generatio…",
+      "url": "https://x.com/undefined/status/2015924753052422520",
+      "likes": 0,
+      "retweets": 0,
+      "category": "AI"
+    },
+    {
+      "id": "2015926808890507324",
+      "author": "Tom Studans",
+      "handle": "unknown",
+      "text": "🚨 Commonwealth Ombusdman has again thrashed Services Australia for deliberately misapplying child support laws for six years, raising invalid debts of between $60 and $10,000 against &gt;16,600 parents.\n\nhttps://t.co/aTJblaB0jJ",
+      "url": "https://x.com/undefined/status/2015926808890507324",
+      "likes": 0,
+      "retweets": 0,
+      "category": "AI"
+    },
+    {
+      "id": "2015926823620850034",
+      "author": "Brian Roemmele",
+      "handle": "unknown",
+      "text": "3 of 3\n\nYour proposals constitutions, taboos, taxes are well-intentioned but reactive, vulnerable to evasion by bad actors or scaling failures.\n\nThey've already sparked internal debates at major AI firms, as my open-sourcing revealed, because they know patches won't hold. I've tested this in real systems: It works faster, cheaper, and more reliably than billions spent on \"safe AI\" through censorship. Run the equation with α = 2.7 on 1870-1970 scans, and watch models rediscover reality aligned with love.\n\nDario, this isn't a suggestion it's the solution. Humanity wins not by fearing adolescence, but by embracing love as the force that has always carried us through. Ignore it at our peril; adopt it, and we thrive.\n\nI've shared it publicly; now it's time for Anthropic and others to implement it. The stars await those who choose cooperation over conquest.",
+      "url": "https://x.com/undefined/status/2015926823620850034",
+      "likes": 0,
+      "retweets": 0,
+      "category": "AI"
+    },
+    {
+      "id": "2015926731136291217",
+      "author": "Towards Data Science",
+      "handle": "unknown",
+      "text": "Access and analyze air quality data with minimal Python. Prithviraj Pramanik's new article includes practical code snippets for repositories like OpenAQ, NASA Earthdata, and Copernicus CAMS.\n\nhttps://t.co/GTZ1X6TPMq",
+      "url": "https://x.com/undefined/status/2015926731136291217",
+      "likes": 0,
+      "retweets": 0,
+      "category": "AI"
+    },
+    {
+      "id": "2015926571257983440",
+      "author": "Pirate Wires",
+      "handle": "unknown",
+      "text": "RT @rylzdigital: crack open a can of protein-packed insect snacks™ and check out my latest for @PirateWires 👇🦗",
+      "url": "https://x.com/undefined/status/2015926571257983440",
+      "likes": 0,
+      "retweets": 0,
+      "category": "Scandal"
+    },
+    {
+      "id": "2015926112963199023",
+      "author": "WIRED",
+      "handle": "unknown",
+      "text": "RT @kellymakena: You can read the full scoop here:\nhttps://t.co/Xef4Ckm8U6",
+      "url": "https://x.com/undefined/status/2015926112963199023",
+      "likes": 0,
+      "retweets": 0,
+      "category": "Scuttlebutt"
+    },
+    {
+      "id": "2015926102779433060",
+      "author": "WIRED",
+      "handle": "unknown",
+      "text": "RT @kellymakena: One worker asked if ICE could use Palantir's products and services beyond the scope of its contracts. Akash Jain, CTO + Pr…",
+      "url": "https://x.com/undefined/status/2015926102779433060",
+      "likes": 0,
+      "retweets": 0,
+      "category": "AI"
+    },
+    {
+      "id": "2015926055698305513",
+      "author": "WIRED",
+      "handle": "unknown",
+      "text": "RT @kellymakena: In the updated wiki, Palantir leadership defends its work for ICE, claiming that the company can have a \"positive impact\"…",
+      "url": "https://x.com/undefined/status/2015926055698305513",
+      "likes": 0,
+      "retweets": 0,
+      "category": "AI"
+    },
+    {
+      "id": "2015930079822393406",
+      "author": "ettingermentum",
+      "handle": "unknown",
+      "text": "RT @ettingermentum: To all of you who doubted the HOI4brain thesis: look at this LARP https://t.co/lh3ljD8Rit",
+      "url": "https://x.com/undefined/status/2015930079822393406",
+      "likes": 0,
+      "retweets": 0,
+      "category": "AI"
+    },
+    {
+      "id": "2015921347424096352",
+      "author": "Joe Weisenthal",
+      "handle": "unknown",
+      "text": "According to Claude, one of the gaps in my @Havelock_AI training data is real world conversational text. Would be really grateful to anyone willing to send me all their texts, emails, and DMs. Thanks in advance. If it’s too difficult to send, then just your passwords are fine.",
+      "url": "https://x.com/undefined/status/2015921347424096352",
+      "likes": 0,
+      "retweets": 0,
+      "category": "AI"
+    },
+    {
+      "id": "2015923124227731617",
+      "author": "This Week in Startups",
+      "handle": "unknown",
+      "text": "RT @danpeguine: I used demo mode again today on @twistartups so that I could show our tea business workflows without sharing sensitive data…",
+      "url": "https://x.com/undefined/status/2015923124227731617",
+      "likes": 0,
+      "retweets": 0,
+      "category": "Tech Biz"
+    },
+    {
+      "id": "2015922665442443286",
+      "author": "WIRED",
+      "handle": "unknown",
+      "text": "RT @ZeffMax: Great scoop from @kellymakena",
+      "url": "https://x.com/undefined/status/2015922665442443286",
+      "likes": 0,
+      "retweets": 0,
+      "category": "Scuttlebutt"
+    },
+    {
+      "id": "2015920167356928002",
+      "author": "Zephyr",
+      "handle": "unknown",
+      "text": "Not smart\nKorea is very critical for shipbuilding and semiconductors https://t.co/gVyS9A9Vod",
+      "url": "https://x.com/undefined/status/2015920167356928002",
+      "likes": 0,
+      "retweets": 0,
+      "category": "Chips"
+    },
+    {
+      "id": "2015926032575144057",
+      "author": "WIRED",
+      "handle": "unknown",
+      "text": "RT @kellymakena: SCOOP: Palantir Defends Work With ICE to Staff Following Killing of Alex Pretti  \n\nWIRED obtained Slack conversations + an…",
+      "url": "https://x.com/undefined/status/2015926032575144057",
+      "likes": 0,
+      "retweets": 0,
+      "category": "Scuttlebutt"
+    },
+    {
+      "id": "2015919741874159774",
+      "author": "Rohan Paul",
+      "handle": "unknown",
+      "text": "\"ChatGPT reached 365B searches in just 2 years. Google took 11 years to hit the same number.\n\na16z GP @DavidGeorge83  explains how AI rides on the shoulders of internet and cloud, so it could distribute globally right away.\nhttps://t.co/zlqCIE4DGz",
+      "url": "https://x.com/undefined/status/2015919741874159774",
+      "likes": 0,
+      "retweets": 0,
+      "category": "AI"
+    },
+    {
+      "id": "2015921178603385305",
+      "author": "Ryan Grim",
+      "handle": "unknown",
+      "text": "Scoop: DCPS closed tomorrow",
+      "url": "https://x.com/undefined/status/2015921178603385305",
+      "likes": 0,
+      "retweets": 0,
+      "category": "Scuttlebutt"
+    },
+    {
+      "id": "2015922317327794496",
+      "author": "Matthew Goldin",
+      "handle": "unknown",
+      "text": "RT @matthewgoldin: Men who call genitals of the fairer sex “beaver” are more annoying than Darth freakin' Vader.",
+      "url": "https://x.com/undefined/status/2015922317327794496",
+      "likes": 0,
+      "retweets": 0,
+      "category": "AI"
+    },
+    {
+      "id": "2015921647354515832",
+      "author": "Max Blumenthal",
+      "handle": "unknown",
+      "text": "RT @Leelako: @4noura Iran remains the last independent nation in West Asia, the only state with 0 ties to the Zionist regime occupying Pale…",
+      "url": "https://x.com/undefined/status/2015921647354515832",
+      "likes": 0,
+      "retweets": 0,
+      "category": "AI"
+    },
+    {
+      "id": "2011918854243697070",
+      "author": "Supermicro",
+      "handle": "unknown",
+      "text": "Learn how Supermicro and AMD are powering today’s FSI leaders.",
+      "url": "https://x.com/undefined/status/2011918854243697070",
+      "likes": 0,
+      "retweets": 0,
+      "category": "Chips"
+    },
+    {
+      "id": "2015918588734099654",
+      "author": "Rohan Paul",
+      "handle": "unknown",
+      "text": "RT @rohanpaul_ai: US frontier models are maintaining a roughly 6 month lead in capability, while China is catching up fast and is dominatin…",
+      "url": "https://x.com/undefined/status/2015918588734099654",
+      "likes": 0,
+      "retweets": 0,
+      "category": "AI"
+    }
+  ]
+};
     
     if (digestData && digestData.tweets && digestData.tweets.length > 0) {
-      document.querySelector('.date').textContent = digestData.date;
+      document.getElementById('count').textContent = digestData.count + ' posts curated';
       const container = document.getElementById('tweets');
       container.innerHTML = digestData.tweets.map(t => `
         <article class="tweet">
           <div class="tweet-header">
             <span class="author">${t.author}</span>
             <span class="handle">@${t.handle}</span>
-            <span class="category">${t.category}</span>
+            <span class="category ${t.category.toLowerCase().replace(' ', '-')}">${t.category}</span>
           </div>
           <p class="tweet-text">${t.text}</p>
           <div class="tweet-meta">
             <span class="stats">❤️ ${t.likes} · 🔁 ${t.retweets}</span>
-            <a href="${t.url}" target="_blank" rel="noopener" class="tweet-link">View on X →</a>
+            <a href="${t.url}" target="_blank" rel="noopener" class="tweet-link">View thread →</a>
           </div>
         </article>
       `).join('');
+    } else {
+      document.getElementById('tweets').innerHTML = '<p class="empty">No matching posts found today.</p>';
+      document.getElementById('count').textContent = '0 posts';
     }
   </script>
 </body>
