@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>X Digest</title>
+  <style>
+    :root {
+      --bg: #0a0a0a;
+      --card-bg: #151515;
+      --border: #2a2a2a;
+      --text: #e5e5e5;
+      --text-muted: #888;
+      --accent: #3b82f6;
+      --accent-hover: #60a5fa;
+    }
+    
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+      padding: 1rem;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    
+    header {
+      padding: 1.5rem 0;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 1.5rem;
+    }
+    
+    h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+      margin-bottom: 0.25rem;
+    }
+    
+    .date {
+      color: var(--text-muted);
+      font-size: 0.9rem;
+    }
+    
+    .tweet {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1rem;
+      margin-bottom: 1rem;
+      transition: border-color 0.2s;
+    }
+    
+    .tweet:hover {
+      border-color: var(--accent);
+    }
+    
+    .tweet-header {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+    
+    .author {
+      font-weight: 600;
+    }
+    
+    .handle {
+      color: var(--text-muted);
+    }
+    
+    .category {
+      margin-left: auto;
+      font-size: 0.75rem;
+      background: var(--border);
+      padding: 0.2rem 0.5rem;
+      border-radius: 4px;
+      color: var(--text-muted);
+    }
+    
+    .tweet-text {
+      margin-bottom: 0.75rem;
+      white-space: pre-wrap;
+    }
+    
+    .tweet-meta {
+      display: flex;
+      gap: 1rem;
+      font-size: 0.85rem;
+      color: var(--text-muted);
+    }
+    
+    .tweet-link {
+      color: var(--accent);
+      text-decoration: none;
+    }
+    
+    .tweet-link:hover {
+      color: var(--accent-hover);
+      text-decoration: underline;
+    }
+    
+    .empty {
+      text-align: center;
+      color: var(--text-muted);
+      padding: 3rem;
+    }
+    
+    .stats {
+      display: flex;
+      gap: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>X Digest</h1>
+    <p class="date">No digest generated yet</p>
+  </header>
+  
+  <main id="tweets">
+    <p class="empty">Waiting for first digest run...</p>
+  </main>
+  
+  <script>
+    // Digest data will be injected here by the generator script
+    const digestData = null;
+    
+    if (digestData && digestData.tweets && digestData.tweets.length > 0) {
+      document.querySelector('.date').textContent = digestData.date;
+      const container = document.getElementById('tweets');
+      container.innerHTML = digestData.tweets.map(t => `
+        <article class="tweet">
+          <div class="tweet-header">
+            <span class="author">${t.author}</span>
+            <span class="handle">@${t.handle}</span>
+            <span class="category">${t.category}</span>
+          </div>
+          <p class="tweet-text">${t.text}</p>
+          <div class="tweet-meta">
+            <span class="stats">❤️ ${t.likes} · 🔁 ${t.retweets}</span>
+            <a href="${t.url}" target="_blank" rel="noopener" class="tweet-link">View on X →</a>
+          </div>
+        </article>
+      `).join('');
+    }
+  </script>
+</body>
+</html>
