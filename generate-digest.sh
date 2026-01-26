@@ -74,7 +74,8 @@ const formatTweet = (t) => {
     url: `https://x.com/${t.author?.username}/status/${t.id}`,
     likes: t.likeCount || 0,
     retweets: t.retweetCount || 0,
-    category: categorize(t.text || '')
+    category: categorize(t.text || ''),
+    date: process.env.DATE
   };
   
   if (t.quotedTweet) {
@@ -105,6 +106,7 @@ const filtered = tweets
 
 const digestData = {
   date: process.env.DATETIME,
+  dateKey: process.env.DATE,
   generated: new Date().toISOString(),
   count: filtered.length,
   tweets: filtered
@@ -112,13 +114,13 @@ const digestData = {
 
 console.log(`Found ${filtered.length} relevant tweets`);
 
-// Generate HTML directly
+// Generate HTML
 const html = `<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>X Digest - ${process.env.DATE}</title>
+  <title>X Digest</title>
   <style>
     :root {
       --bg: #0a0a0a;
@@ -129,6 +131,7 @@ const html = `<!DOCTYPE html>
       --text-muted: #888;
       --accent: #3b82f6;
       --accent-hover: #60a5fa;
+      --bookmark: #f59e0b;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -140,10 +143,26 @@ const html = `<!DOCTYPE html>
       max-width: 700px;
       margin: 0 auto;
     }
-    header { padding: 1.5rem 0; border-bottom: 1px solid var(--border); margin-bottom: 1.5rem; }
+    
+    /* Password gate */
+    #gate { display: flex; flex-direction: column; align-items: center; justify-content: center; min-height: 50vh; gap: 1rem; }
+    #gate input { background: var(--card-bg); border: 1px solid var(--border); padding: 0.75rem 1rem; border-radius: 8px; color: var(--text); font-size: 1rem; text-align: center; width: 120px; }
+    #gate input:focus { outline: none; border-color: var(--accent); }
+    #gate .error { color: #ef4444; font-size: 0.85rem; }
+    #app { display: none; }
+    
+    /* Tabs */
+    .tabs { display: flex; gap: 0; margin-bottom: 1.5rem; border-bottom: 1px solid var(--border); }
+    .tab { padding: 0.75rem 1.5rem; cursor: pointer; color: var(--text-muted); border-bottom: 2px solid transparent; transition: all 0.2s; }
+    .tab:hover { color: var(--text); }
+    .tab.active { color: var(--accent); border-bottom-color: var(--accent); }
+    .tab-count { font-size: 0.75rem; background: var(--border); padding: 0.1rem 0.4rem; border-radius: 4px; margin-left: 0.5rem; }
+    
+    header { padding: 1.5rem 0 1rem; }
     h1 { font-size: 1.5rem; font-weight: 600; margin-bottom: 0.25rem; }
     .date { color: var(--text-muted); font-size: 0.9rem; }
     .count { color: var(--accent); font-size: 0.85rem; margin-top: 0.25rem; }
+    
     .tweet {
       background: var(--card-bg);
       border: 1px solid var(--border);
@@ -151,9 +170,10 @@ const html = `<!DOCTYPE html>
       padding: 1rem;
       margin-bottom: 1rem;
       transition: border-color 0.2s;
+      position: relative;
     }
     .tweet:hover { border-color: var(--accent); }
-    .tweet-header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap; }
+    .tweet-header { display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.5rem; flex-wrap: wrap; padding-right: 2.5rem; }
     .author { font-weight: 600; }
     .handle { color: var(--text-muted); }
     .category {
@@ -180,51 +200,185 @@ const html = `<!DOCTYPE html>
       margin: 0.75rem 0;
       font-size: 0.9rem;
     }
-    .quoted-tweet .tweet-header { margin-bottom: 0.25rem; }
+    .quoted-tweet .tweet-header { margin-bottom: 0.25rem; padding-right: 0; }
     .quoted-tweet .tweet-text { margin-bottom: 0.5rem; }
     .tweet-meta { display: flex; gap: 1rem; font-size: 0.85rem; color: var(--text-muted); flex-wrap: wrap; }
     .tweet-link { color: var(--accent); text-decoration: none; }
     .tweet-link:hover { color: var(--accent-hover); text-decoration: underline; }
     .empty { text-align: center; color: var(--text-muted); padding: 3rem; }
     .stats { display: flex; gap: 0.75rem; }
+    
+    /* Bookmark button */
+    .bookmark-btn {
+      position: absolute;
+      top: 1rem;
+      right: 1rem;
+      background: none;
+      border: none;
+      cursor: pointer;
+      font-size: 1.25rem;
+      opacity: 0.4;
+      transition: opacity 0.2s, transform 0.2s;
+    }
+    .bookmark-btn:hover { opacity: 0.8; transform: scale(1.1); }
+    .bookmark-btn.bookmarked { opacity: 1; color: var(--bookmark); }
+    
+    .bookmark-date { font-size: 0.75rem; color: var(--text-muted); margin-bottom: 0.5rem; }
   </style>
 </head>
 <body>
-  <header>
-    <h1>X Digest</h1>
-    <p class="date">${digestData.date}</p>
-    <p class="count">${digestData.count} posts curated</p>
-  </header>
-  <main>
-    ${digestData.tweets.length > 0 ? digestData.tweets.map(t => {
+  <div id="gate">
+    <h1>🔒</h1>
+    <input type="password" id="pw" placeholder="Password" autofocus>
+    <div class="error" id="error"></div>
+  </div>
+  
+  <div id="app">
+    <header>
+      <h1>X Digest</h1>
+      <p class="date" id="date"></p>
+      <p class="count" id="count"></p>
+    </header>
+    
+    <div class="tabs">
+      <div class="tab active" data-tab="feed">Feed</div>
+      <div class="tab" data-tab="bookmarks">Bookmarks <span class="tab-count" id="bookmark-count">0</span></div>
+    </div>
+    
+    <main id="feed"></main>
+    <main id="bookmarks" style="display: none;"></main>
+  </div>
+  
+  <script>
+    const PASSWORD = '!';
+    const digestData = ${JSON.stringify(digestData)};
+    
+    // Check if already authenticated
+    if (sessionStorage.getItem('xdigest_auth') === '1') {
+      showApp();
+    }
+    
+    // Password handling
+    document.getElementById('pw').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') {
+        if (e.target.value === PASSWORD) {
+          sessionStorage.setItem('xdigest_auth', '1');
+          showApp();
+        } else {
+          document.getElementById('error').textContent = 'Nope';
+          e.target.value = '';
+        }
+      }
+    });
+    
+    function showApp() {
+      document.getElementById('gate').style.display = 'none';
+      document.getElementById('app').style.display = 'block';
+      renderFeed();
+      renderBookmarks();
+    }
+    
+    // Bookmarks
+    function getBookmarks() {
+      try {
+        return JSON.parse(localStorage.getItem('xdigest_bookmarks') || '[]');
+      } catch { return []; }
+    }
+    
+    function saveBookmarks(bookmarks) {
+      localStorage.setItem('xdigest_bookmarks', JSON.stringify(bookmarks));
+      updateBookmarkCount();
+    }
+    
+    function isBookmarked(id) {
+      return getBookmarks().some(b => b.id === id);
+    }
+    
+    function toggleBookmark(tweet) {
+      let bookmarks = getBookmarks();
+      const idx = bookmarks.findIndex(b => b.id === tweet.id);
+      if (idx >= 0) {
+        bookmarks.splice(idx, 1);
+      } else {
+        bookmarks.unshift({ ...tweet, bookmarkedAt: new Date().toISOString() });
+      }
+      saveBookmarks(bookmarks);
+      renderFeed();
+      renderBookmarks();
+    }
+    
+    function updateBookmarkCount() {
+      document.getElementById('bookmark-count').textContent = getBookmarks().length;
+    }
+    
+    // Tabs
+    document.querySelectorAll('.tab').forEach(tab => {
+      tab.addEventListener('click', () => {
+        document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+        tab.classList.add('active');
+        const target = tab.dataset.tab;
+        document.getElementById('feed').style.display = target === 'feed' ? 'block' : 'none';
+        document.getElementById('bookmarks').style.display = target === 'bookmarks' ? 'block' : 'none';
+      });
+    });
+    
+    function renderTweet(t, showDate = false) {
       let quotedHtml = '';
       if (t.quotedTweet) {
-        quotedHtml = `
+        quotedHtml = \`
           <div class="quoted-tweet">
             <div class="tweet-header">
-              <span class="author">${t.quotedTweet.author}</span>
-              <span class="handle">@${t.quotedTweet.handle}</span>
+              <span class="author">\${t.quotedTweet.author}</span>
+              <span class="handle">@\${t.quotedTweet.handle}</span>
             </div>
-            <p class="tweet-text">${t.quotedTweet.text}</p>
-            <a href="${t.quotedTweet.url}" target="_blank" rel="noopener" class="tweet-link">View original →</a>
-          </div>`;
+            <p class="tweet-text">\${t.quotedTweet.text}</p>
+            <a href="\${t.quotedTweet.url}" target="_blank" rel="noopener" class="tweet-link">View original →</a>
+          </div>\`;
       }
-      return `
-        <article class="tweet">
+      const bookmarked = isBookmarked(t.id);
+      const dateHtml = showDate && t.date ? \`<div class="bookmark-date">From \${t.date}</div>\` : '';
+      return \`
+        <article class="tweet" data-id="\${t.id}">
+          <button class="bookmark-btn \${bookmarked ? 'bookmarked' : ''}" onclick='toggleBookmark(\${JSON.stringify(t).replace(/'/g, "&apos;")})'>
+            \${bookmarked ? '★' : '☆'}
+          </button>
+          \${dateHtml}
           <div class="tweet-header">
-            <span class="author">${t.author}</span>
-            <span class="handle">@${t.handle}</span>
-            <span class="category ${t.category.toLowerCase().replace(' ', '-')}">${t.category}</span>
+            <span class="author">\${t.author}</span>
+            <span class="handle">@\${t.handle}</span>
+            <span class="category \${t.category.toLowerCase().replace(' ', '-')}">\${t.category}</span>
           </div>
-          <p class="tweet-text">${t.text}</p>
-          ${quotedHtml}
+          <p class="tweet-text">\${t.text}</p>
+          \${quotedHtml}
           <div class="tweet-meta">
-            <span class="stats">❤️ ${t.likes} · 🔁 ${t.retweets}</span>
-            <a href="${t.url}" target="_blank" rel="noopener" class="tweet-link">View thread →</a>
+            <span class="stats">❤️ \${t.likes} · 🔁 \${t.retweets}</span>
+            <a href="\${t.url}" target="_blank" rel="noopener" class="tweet-link">View thread →</a>
           </div>
-        </article>`;
-    }).join('') : '<p class="empty">No matching posts found today.</p>'}
-  </main>
+        </article>\`;
+    }
+    
+    function renderFeed() {
+      document.getElementById('date').textContent = digestData.date;
+      document.getElementById('count').textContent = digestData.count + ' posts curated';
+      const container = document.getElementById('feed');
+      if (digestData.tweets && digestData.tweets.length > 0) {
+        container.innerHTML = digestData.tweets.map(t => renderTweet(t)).join('');
+      } else {
+        container.innerHTML = '<p class="empty">No matching posts found today.</p>';
+      }
+      updateBookmarkCount();
+    }
+    
+    function renderBookmarks() {
+      const bookmarks = getBookmarks();
+      const container = document.getElementById('bookmarks');
+      if (bookmarks.length > 0) {
+        container.innerHTML = bookmarks.map(t => renderTweet(t, true)).join('');
+      } else {
+        container.innerHTML = '<p class="empty">No bookmarks yet. Tap ☆ on a post to save it.</p>';
+      }
+    }
+  </script>
 </body>
 </html>`;
 
