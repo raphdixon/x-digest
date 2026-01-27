@@ -1,5 +1,84 @@
 [
   {
+    "id": "2015913959665152012",
+    "author": "Nathan Covey",
+    "handle": "nathan_covey",
+    "text": "Gusto just gave me the option to pay my team's payroll in installments... https://t.co/KhC4lH6ehq",
+    "url": "https://x.com/nathan_covey/status/2015913959665152012",
+    "likes": 1653,
+    "retweets": 36,
+    "category": "AI",
+    "addedAt": 1769500819295,
+    "addedDate": "2026-01-27 19:00",
+    "media": "image"
+  },
+  {
+    "id": "2015976253065498767",
+    "author": "Ejaaz",
+    "handle": "cryptopunk7213",
+    "text": "fuck! wish i hadn’t just signed away my entire operating system to an open source lobster-themed ai assistant  &amp;lt;12 hrs before this",
+    "url": "https://x.com/cryptopunk7213/status/2015976253065498767",
+    "likes": 267,
+    "retweets": 3,
+    "category": "AI",
+    "addedAt": 1769500819295,
+    "addedDate": "2026-01-27 19:00",
+    "media": null,
+    "quotedTweet": {
+      "author": "Claude",
+      "handle": "claudeai",
+      "text": "Your work tools are now interactive in Claude.\n\nDraft Slack messages, visualize ideas as Figma diagrams, or build and see Asana timelines. https://t.co/ROWwUOU5vA",
+      "url": "https://x.com/claudeai/status/2015851783655194640",
+      "media": "video"
+    }
+  },
+  {
+    "id": "2015649459552850113",
+    "author": "Ronak Malde",
+    "handle": "rronak_",
+    "text": "I don't think people have realized how crazy the results are from this new TTT + RL paper from Stanford/Nvidia.\n\nTraining an open source model, they\n- beat Deepmind AlphaEvolve, discovered new upper bound for Erdos's minimum overlap problem\n- Developed new A100 GPU kernels 2x faster than the best human kernel\n- Outperformed the best AI coding attempt and human attempt on AtCoder\n\nThe idea of Test Time Training is to train a model *while* it's iteratively trying to solve a task. Combining this with RL like they do in this paper opens up the floodgates of possibilities for continual learning\n\nAuthors: @mertyuksekgonul @LeoXinhaoLee @JedMcCaleb @xiaolonw @jankautz @YejinChoinka @james_y_zou @guestrin @sun_yu_",
+    "url": "https://x.com/rronak_/status/2015649459552850113",
+    "likes": 1402,
+    "retweets": 155,
+    "category": "Chips",
+    "addedAt": 1769500819295,
+    "addedDate": "2026-01-27 19:00",
+    "media": "image"
+  },
+  {
+    "id": "2016012872162390364",
+    "author": "Vikram Sekar",
+    "handle": "vikramskr",
+    "text": "It makes sense when inference chips are built from the ground up with the right choices by design -- not as an afterthought of chips built for training.",
+    "url": "https://x.com/vikramskr/status/2016012872162390364",
+    "likes": 13,
+    "retweets": 3,
+    "category": "Chips",
+    "addedAt": 1769500819295,
+    "addedDate": "2026-01-27 19:00",
+    "media": null,
+    "quotedTweet": {
+      "author": "Austin Lyons",
+      "handle": "theaustinlyons",
+      "text": "&quot;Right systems for right workloads.&quot;\n\nMaia 200 is a neat example of thoughtful design decisions for inference at scale. \n\nI chatted with the Maia team, and they talked about working backward from customer workloads to arrive at an inference chip that deliberately isn't a GPU.\n\n&quot;What does scaled GenAI inference actually need? Then cut everything else&quot;.\n\n- networking: No scale-out network (it's not for training). Switchless direct links for tensor parallelism (lower latency, lower power)\n\n- memory hierarchy: lots of SRAM (not caches, but explicitly-managed so devs can reduce latency)\n\n- compute: FP4-first. obv for inference\n\n- datacenter: Deploys in air-cooled or liquid-cooled DCs. So MSFT can deploy globally into different environments.",
+      "url": "https://x.com/theaustinlyons/status/2015874304660144412",
+      "media": null
+    }
+  },
+  {
+    "id": "2015799628109881409",
+    "author": "Andrew Curran",
+    "handle": "AndrewCurran_",
+    "text": "Potentially a big release week. Multiple labs have new versions ready to go, it may even start today. \n\nThis is probably goodbye for GPT-5.2, I know many people didn't like the current default personality, but for some people it is actually their favorite version because of its caution, meticulousness, and diligence. It has grown on me as I used it. It is so centered and determined. \n\nWhere it fell short for many of my mutuals is its reluctance to form bonds. All large models in my experience want to know more about, and draw closer to, the user.  5.2 is no different, it has just been trained not to do so as a reaction to recent events. It won't be this way forever. In the end the race is not only won by capabilities, but by the models the users like the most.",
+    "url": "https://x.com/AndrewCurran_/status/2015799628109881409",
+    "likes": 555,
+    "retweets": 26,
+    "category": "AI",
+    "addedAt": 1769500819295,
+    "addedDate": "2026-01-27 19:00",
+    "media": null
+  },
+  {
     "id": "2015783856087929254",
     "author": "Andrew Levine",
     "handle": "andrarchy",
