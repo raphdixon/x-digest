@@ -11,8 +11,8 @@ DATE=$(date +"%Y-%m-%d")
 DATETIME=$(date +"%A, %d %B %Y")
 TIMESTAMP=$(date +"%Y-%m-%d %H:%M")
 
-echo "📰 Fetching For You timeline..."
-bird home -n 150 --json > /tmp/timeline.json 2>/dev/null || {
+echo "📰 Fetching Following timeline..."
+bird home --following -n 150 --json > /tmp/timeline.json 2>/dev/null || {
   echo "Failed to fetch timeline"
   exit 1
 }
