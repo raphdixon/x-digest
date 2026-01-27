@@ -1,5 +1,71 @@
 [
   {
+    "id": "2011440414579097829",
+    "author": "The Fabulous",
+    "handle": "GetTheFabulous",
+    "text": "IMHO, most productivity advice fails because it assumes motivation comes first. For me, structure first, motivation later. Fabulous helped me build that structure without burnout.",
+    "url": "https://x.com/GetTheFabulous/status/2011440414579097829",
+    "likes": 97,
+    "retweets": 14,
+    "category": "Chips",
+    "addedAt": 1769484618860,
+    "addedDate": "2026-01-27 14:30",
+    "media": null
+  },
+  {
+    "id": "2015829869020508442",
+    "author": "Gemini CLI",
+    "handle": "geminicli",
+    "text": "This video was created entirely within Gemini CLI...\n\n... in under 10 prompts 🪄\n\nWith a few detailed prompts you can create high quality motion videos thanks to the Remotion Agent Skill.\n\n👇Give Agent Skills a try today in Gemini CLI! https://t.co/s5Op8dJUWq",
+    "url": "https://x.com/geminicli/status/2015829869020508442",
+    "likes": 1207,
+    "retweets": 76,
+    "category": "AI",
+    "addedAt": 1769484618860,
+    "addedDate": "2026-01-27 14:30",
+    "media": "video",
+    "quotedTweet": {
+      "author": "Remotion",
+      "handle": "Remotion",
+      "text": "Remotion now has Agent Skills - make videos just with Claude Code!\n\n$ npx skills add remotion-dev/skills\n\nThis animation was created just by prompting 👇 https://t.co/hadnkHlG6E",
+      "url": "https://x.com/Remotion/status/2013626968386765291",
+      "media": "video"
+    }
+  },
+  {
+    "id": "2015980267819958279",
+    "author": "BuccoCapital Bloke",
+    "handle": "buccocapital",
+    "text": "Here’s an incredibly simple bull case for the incumbent systems of record, or at least, a simple rebuttal of the seat loss + shrinking customer LTV bear case:\n\n1. AI has actually expanded their TAM, which is now the opportunity to displace labor by charging for outcomes instead of seats\n2. If a business currently spends $20-50 to close a support ticket, they are thrilled to pay 50 cents for AI to solve it, and potentially also have to hire fewer support reps. Similar dynamic with leads and business development reps \n3. No company actively wants to use another vendor. It is so so so so so much easier to just use your existing relationship and infrastructure \n4. Therefore, literally every customer just wants Salesforce or HubSpot or ServiceNow to just figure this out. They are rooting for them \n5. Even if they are testing other point solutions, they will absolutely switch if the SoR solution becomes good enough \n6. They just have to become good enough in the next 12-18 months. They probably will figure it out",
+    "url": "https://x.com/buccocapital/status/2015980267819958279",
+    "likes": 106,
+    "retweets": 6,
+    "category": "AI",
+    "addedAt": 1769484618860,
+    "addedDate": "2026-01-27 14:30",
+    "media": null
+  },
+  {
+    "id": "2015798375807906063",
+    "author": "male slayer 𝜗𝜚",
+    "handle": "caramelcolored",
+    "text": "You don’t have to forgive Kanye west, or believe he has changed.\n\nBut I do wish more people understood mental health disorders more. I’ve seen far too many people say shit like “well, bipolar disorder doesn’t make you do that.”\n\nYES IT DOES. Bipolar disorder makes you do shit you would never do if you didn’t have it. And it doesn’t excuse the behavior at all. You aren’t required to tolerate what someone with poor mental health does to you. \n\nBut at least listen. Honestly I’ve always understood that Kanye was sick. Even in videos of him, he just seemed “off.”  I hope he really heals.",
+    "url": "https://x.com/caramelcolored/status/2015798375807906063",
+    "likes": 32102,
+    "retweets": 3205,
+    "category": "Tech Biz",
+    "addedAt": 1769484618860,
+    "addedDate": "2026-01-27 14:30",
+    "media": null,
+    "quotedTweet": {
+      "author": "FearBuck",
+      "handle": "FearedBuck",
+      "text": "Ye issues an apology for his antisemitic comments \n\n“I regret and am deeply mortified by my actions in that state, and am committed to accountability, treatment, and meaningful change. It does not excuse what I did though… I am not a Nazi or an antisemite. I love Jewish people… To the black community - which held me down through all of the highs and lows and the darkest of times. The black community is, unquestionably, the foundation of who I am. I am so sorry to have let you down. I love us.\n\nIn early 2025, I fell into a four-month long manic episode of psychotic, paranoid and impulsive behavior that destroyed my life. As the situation became increasingly unsustainable, there were times I didn’t want to be here anymore.\n\nHaving bipolar disorder is notable state of constant mental illness. When you go into a manic episode, you are ill at that point. When you are not in an episode, you are completely ‘normal’. And that’s when the wreckage from the illness hits the hardest. Hitting rock bottom a few months ago, my wife encouraged me to finally get help.\n\nI have found comfort in Reddit forums of all places. Different people speak of being in manic or depressive episodes of a similar nature. I read their stories and realized that I was not alone. It’s not just me who ruins their entire life once a year despite taking meds every day and being told by the so-called best doctors in the world that I am not bipolar, but merely experiencing “symptoms of autism.”\n\nMy words as a leader in my community have global impact and influence. In my mania, I lost complete sight of that.\n\nAs I find my new baseline and new center through an effective regime of medication, therapy, exercise, and clean living, I have newfound, much-needed clarity. I am pouring my energy into positive, meaningful art: music, clothing, design, and other new ideas to help the world.\n\nI’m not asking for sympathy, or a free pass, though I aspire to earn your forgiveness. I write today simply to ask for your patience and understanding as I find my way home.”\n\nWith love,\n\nYe\n\n(via Walla Street Journal)",
+      "url": "https://x.com/FearedBuck/status/2015784919402750190",
+      "media": "image"
+    }
+  },
+  {
     "id": "2015975697731485980",
     "author": "Zephyr",
     "handle": "zephyr_z9",
