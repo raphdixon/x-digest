@@ -1,5 +1,98 @@
 [
   {
+    "id": "2015976763659010477",
+    "author": "Jay Yarow",
+    "handle": "jyarow",
+    "text": "“If the exponential continues—which is not certain, but now has a decade-long track record supporting it—then it cannot possibly be more than a few years before AI is better than humans at essentially everything.” https://t.co/kghnzc3mXP",
+    "url": "https://x.com/jyarow/status/2015976763659010477",
+    "likes": 4,
+    "retweets": 0,
+    "category": "AI",
+    "addedAt": 1769488219058,
+    "addedDate": "2026-01-27 15:30",
+    "media": null
+  },
+  {
+    "id": "2015946203553468455",
+    "author": "Zephyr",
+    "handle": "zephyr_z9",
+    "text": "Output was much better than GPT 5.2, and just took 5 minutes (5.2 required 17 minutes)\nVery good at long context\nKimi Linear is mogging everyone rn",
+    "url": "https://x.com/zephyr_z9/status/2015946203553468455",
+    "likes": 99,
+    "retweets": 4,
+    "category": "AI",
+    "addedAt": 1769488219058,
+    "addedDate": "2026-01-27 15:30",
+    "media": null,
+    "quotedTweet": {
+      "author": "Zephyr",
+      "handle": "zephyr_z9",
+      "text": "I don't know what kind of black magic was used by kimi bros, but this model is extremely good for research\n\nMogs Gemini 3 Pro into oblivion and the output quality was much better than GPT 5.2 Extended Thinking",
+      "url": "https://x.com/zephyr_z9/status/2015943961119166488",
+      "media": null
+    }
+  },
+  {
+    "id": "2015952979158040667",
+    "author": "Zephyr",
+    "handle": "zephyr_z9",
+    "text": "Output quality: Kimi 2.5 &amp;gt; Opus 4.5 (Claude Code) &amp;gt; GPT 5.2 &amp;gt; Gemini 3 Pro\n\nCC's multiagent/subagent system is damn good. Format was great too, but it ranks below Kimi because it included irrelevant stuff in the output",
+    "url": "https://x.com/zephyr_z9/status/2015952979158040667",
+    "likes": 189,
+    "retweets": 4,
+    "category": "AI",
+    "addedAt": 1769488219058,
+    "addedDate": "2026-01-27 15:30",
+    "media": null,
+    "quotedTweet": {
+      "author": "Zephyr",
+      "handle": "zephyr_z9",
+      "text": "Output was much better than GPT 5.2, and just took 5 minutes (5.2 required 17 minutes)\nVery good at long context\nKimi Linear is mogging everyone rn",
+      "url": "https://x.com/zephyr_z9/status/2015946203553468455",
+      "media": null
+    }
+  },
+  {
+    "id": "2015701971064230297",
+    "author": "Ina Fried",
+    "handle": "inafried",
+    "text": "First @OpenAI executive I have seen speak out.",
+    "url": "https://x.com/inafried/status/2015701971064230297",
+    "likes": 658,
+    "retweets": 45,
+    "category": "AI",
+    "addedAt": 1769488219058,
+    "addedDate": "2026-01-27 15:30",
+    "media": null,
+    "quotedTweet": {
+      "author": "Caitlin Kalinowski",
+      "handle": "kalinowski007",
+      "text": "1st Amendment — freedom of speech, assembly, and protest\n\n2nd Amendment — right to bear arms\n\n4th Amendment — protection against unreasonable searches and seizures\n\n5th Amendment — due process of law\n\n14th Amendment — equal protection under the law",
+      "url": "https://x.com/kalinowski007/status/2015623508525765089",
+      "media": null
+    }
+  },
+  {
+    "id": "2015891329335890294",
+    "author": "Kyle Harrison",
+    "handle": "kwharrison13",
+    "text": "People think advertising is a low art form so they fail to engage with it intellectually. \n\nBut advertising represents a complex engine whose programmatic capabilities was the foundation of fundamental algorithms. \n\nYou can’t just “turn it on” or else it looks stupid like this.",
+    "url": "https://x.com/kwharrison13/status/2015891329335890294",
+    "likes": 16,
+    "retweets": 4,
+    "category": "Chips",
+    "addedAt": 1769488219058,
+    "addedDate": "2026-01-27 15:30",
+    "media": null,
+    "quotedTweet": {
+      "author": "Contrary Research",
+      "handle": "Contrary_Res",
+      "text": "How much do AI companies need to sell ads for in order to break even supporting free users? We did the math in our piece on AI advertising last week: https://t.co/rehG1d2LSF https://t.co/Ob02nomnjO",
+      "url": "https://x.com/Contrary_Res/status/2015876842239230268",
+      "media": "image"
+    }
+  },
+  {
     "id": "2011440414579097829",
     "author": "The Fabulous",
     "handle": "GetTheFabulous",
