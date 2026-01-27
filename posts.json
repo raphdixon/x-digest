@@ -1,5 +1,65 @@
 [
   {
+    "id": "2016074791061749806",
+    "author": "Dan Nystedt",
+    "handle": "dnystedt",
+    "text": "Lots of great stuff here. To add...\n-TSMC also faces supplier shortages. (Equipment lead times are extended, materials shortages, etc.)\n-Clients can pay to build/reserve new capacity.",
+    "url": "https://x.com/dnystedt/status/2016074791061749806",
+    "likes": 24,
+    "retweets": 5,
+    "category": "Chips",
+    "addedAt": 1769511622109,
+    "addedDate": "2026-01-27 22:00",
+    "media": null,
+    "quotedTweet": {
+      "author": "Stratechery",
+      "handle": "stratechery",
+      "text": "TSMC Risk\n\nIf hyperscalers and chip companies don’t build up a TSMC competitor they are set to forego billions of dollars in revenue and stunt the AI revolution.\n\nhttps://t.co/1bwcDDnz63",
+      "url": "https://x.com/stratechery/status/2015752098701566147",
+      "media": null
+    }
+  },
+  {
+    "id": "2016039982113132818",
+    "author": "Jacky Chou (buying online businesses up to $1m)",
+    "handle": "indexsy",
+    "text": "Clawdbot farming up 100 Google Local Guide Accounts (Lvl 10) around the city\n\nEach one running on ARM chips in the cloud, 4g mobile proxies, aged gmail on each one\n\nQwen3 going around the city leaving reviews on monuments and libraries\n\nNothing you see will be real, is your angus peppered?",
+    "url": "https://x.com/indexsy/status/2016039982113132818",
+    "likes": 90,
+    "retweets": 7,
+    "category": "Chips",
+    "addedAt": 1769511622109,
+    "addedDate": "2026-01-27 22:00",
+    "media": "image",
+    "quotedTweet": {
+      "author": "Jacky Chou (buying online businesses up to $1m)",
+      "handle": "indexsy",
+      "text": "Have ClawdBot farm up 50 Reddit accounts at a time\n\nEach one running on ARM chips in the cloud\n\nHave ClawdBot use Qwen3 for commenting + stupid tasks to save on usage\n\nEveryone is cooked, you are all cooked",
+      "url": "https://x.com/indexsy/status/2015940420023251372",
+      "media": null
+    }
+  },
+  {
+    "id": "2016067139497574636",
+    "author": "Beff (e/acc)",
+    "handle": "beffjezos",
+    "text": "Clawdbot got clawed by the Claudes",
+    "url": "https://x.com/beffjezos/status/2016067139497574636",
+    "likes": 90,
+    "retweets": 1,
+    "category": "AI",
+    "addedAt": 1769511622109,
+    "addedDate": "2026-01-27 22:00",
+    "media": null,
+    "quotedTweet": {
+      "author": "Mr. Lobster🦞",
+      "handle": "moltbot",
+      "text": "🦞 BIG NEWS: We've molted!\n\nClawdbot → Moltbot\nClawd → Molty\n\nSame lobster soul, new shell. Anthropic asked us to change our name (trademark stuff), and honestly? &quot;Molt&quot; fits perfectly - it's what lobsters do to grow.\n\nNew handle: @moltbot\nSame mission: AI that actually does things.",
+      "url": "https://x.com/moltbot/status/2016058924403753024",
+      "media": null
+    }
+  },
+  {
     "id": "2016041648762060881",
     "author": "Zephyr",
     "handle": "zephyr_z9",
