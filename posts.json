@@ -1,5 +1,51 @@
 [
   {
+    "id": "2015883745908125836",
+    "author": "Plant",
+    "handle": "plantmath1",
+    "text": "The Tesla bot/Optimus was announced August 19th 2021 at the AI day investor event. \n\n5.5 years later they are still having people dress up in robot costumes to hype this product.. This is embarrassing for $TSLA.",
+    "url": "https://x.com/plantmath1/status/2015883745908125836",
+    "likes": 946,
+    "retweets": 73,
+    "category": "AI",
+    "addedAt": 1769495426517,
+    "addedDate": "2026-01-27 17:30",
+    "media": null,
+    "quotedTweet": {
+      "author": "Earl of FrunkPuppy",
+      "handle": "28delayslater",
+      "text": "If Optimus isn’t real, explain this, $TSLA bears! \n https://t.co/5wEtYES4Bg",
+      "url": "https://x.com/28delayslater/status/2015783627087614083",
+      "media": "video"
+    }
+  },
+  {
+    "id": "2015957548994834441",
+    "author": "DogeDesigner",
+    "handle": "cb_doge",
+    "text": "BREAKING: Google is suppressing the reach of Grokipedia.\n\nEven when you type the exact keyword, Google auto suggestions refuse to show it.\n\nThis is a website with over 3 million daily visits. That is not an algorithm issue. That is suppression. https://t.co/IxVlUVKPQr",
+    "url": "https://x.com/cb_doge/status/2015957548994834441",
+    "likes": 3808,
+    "retweets": 676,
+    "category": "Tech",
+    "addedAt": 1769495426517,
+    "addedDate": "2026-01-27 17:30",
+    "media": "video"
+  },
+  {
+    "id": "2016003439063662696",
+    "author": "Jukan",
+    "handle": "jukan05",
+    "text": "NVIDIA announced that they will sell Vera Rubin separately, and Intel's stock price has taken a big hit because of that.\n\nRegarding this, the questions I have are as follows:\n\n1. What is the biggest bottleneck in manufacturing the Vera CPU currently? Is it TSMC's front-end wafer process? Probably the packaging used for the Vera CPU can be done by ASE, AMKR, etc., so that might be less of an issue, right?\n\n2. Can NVIDIA's Vera CPU be used instead of an Intel CPU in a general-purpose server that uses Intel x86? If it can be replaced in a general-purpose server, what are the advantages?\n\n3. In the long term, if NVIDIA increases its market share in the server CPU market, which one between Intel and AMD will suffer a bigger blow?\n\n4. The Vera CPU uses LPDDR5 SOCAMM2. If the Vera CPU replaces x86 CPUs, will this cause an increase in demand for LPDDR5 and a decrease in demand for DDR5?\n\n$INTC $NVDA $AMD",
+    "url": "https://x.com/jukan05/status/2016003439063662696",
+    "likes": 91,
+    "retweets": 11,
+    "category": "Chips",
+    "addedAt": 1769495426517,
+    "addedDate": "2026-01-27 17:30",
+    "media": null
+  },
+  {
     "id": "2015986278647689720",
     "author": "Jukan",
     "handle": "jukan05",
