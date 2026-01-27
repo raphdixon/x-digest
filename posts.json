@@ -1,5 +1,77 @@
 [
   {
+    "id": "2016041648762060881",
+    "author": "Zephyr",
+    "handle": "zephyr_z9",
+    "text": "OpenAI has been doing this for months now",
+    "url": "https://x.com/zephyr_z9/status/2016041648762060881",
+    "likes": 42,
+    "retweets": 0,
+    "category": "AI",
+    "addedAt": 1769509818800,
+    "addedDate": "2026-01-27 21:30",
+    "media": null,
+    "quotedTweet": {
+      "author": "elie",
+      "handle": "eliebakouch",
+      "text": "15T is the same budget than kimi k2 initial pre training, afaik this is the first time that a team openly use a previous checkpoint to build an even stronger model\n\nwe'll keep seeing more and more of this &quot;mid training&quot; intervention to change arch, modalities, better long context, better agentic data.. \n\nthis is very exciting and make it possible for other company to join the race (cursor?) thanks to provider like kimi (and others like deepseek, meituan, zai,...) releasing the base model",
+      "url": "https://x.com/eliebakouch/status/2016031426584379595",
+      "media": null
+    }
+  },
+  {
+    "id": "1908252491696701744",
+    "author": "Paragon",
+    "handle": "useparagon",
+    "text": "Give your AI agents access to dozens of external apps and 1000+ read/write actions, instantly. With ActionKit, your AI agents will no longer be stuck relying on out-of-date context to generate responses.",
+    "url": "https://x.com/useparagon/status/1908252491696701744",
+    "likes": 9,
+    "retweets": 1,
+    "category": "AI",
+    "addedAt": 1769509818801,
+    "addedDate": "2026-01-27 21:30",
+    "media": null
+  },
+  {
+    "id": "2015862013461975198",
+    "author": "John Coogan",
+    "handle": "johncoogan",
+    "text": "Clawdbot: AI enters the Napster era",
+    "url": "https://x.com/johncoogan/status/2015862013461975198",
+    "likes": 367,
+    "retweets": 24,
+    "category": "AI",
+    "addedAt": 1769509818801,
+    "addedDate": "2026-01-27 21:30",
+    "media": null
+  },
+  {
+    "id": "2015870473750642696",
+    "author": "anita",
+    "handle": "anitakirkovska",
+    "text": "I think I’m using @clawdbot a little differently than most people. I'm not sharing any of my credentials or giving access to my personal local files. \n\nInstead, I set Ava to be a totally separate “person” with her own Apple ID, phone number, Google account, and even its own dedicated Mac Mini. With this, she can create her own accounts with apps like Vercel or Amazon or setup an X account (which she did: hi @avareed_1994) to help me with my tasks.\n\nI only share things like reminders, our messaging chat, and calendar access, so it can text me, order groceries, and keep me accountable to go to the gym.. and anything else we figure out in the meantime\n\nI know that means I’m missing some powerful persona/work automations for now, but I’d rather move slower than worry about security. \n\nand also, this is still so powerful and fun",
+    "url": "https://x.com/anitakirkovska/status/2015870473750642696",
+    "likes": 1318,
+    "retweets": 63,
+    "category": "Scandal",
+    "addedAt": 1769509818801,
+    "addedDate": "2026-01-27 21:30",
+    "media": "image"
+  },
+  {
+    "id": "2015943609774637196",
+    "author": "vas",
+    "handle": "vasuman",
+    "text": "It bothers me deeply that OpenAI has no response to Claude Code, even now",
+    "url": "https://x.com/vasuman/status/2015943609774637196",
+    "likes": 660,
+    "retweets": 6,
+    "category": "AI",
+    "addedAt": 1769509818801,
+    "addedDate": "2026-01-27 21:30",
+    "media": null
+  },
+  {
     "id": "2016058924403753024",
     "author": "Mr. Lobster🦞",
     "handle": "moltbot",
