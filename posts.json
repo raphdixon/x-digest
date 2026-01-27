@@ -1,5 +1,38 @@
 [
   {
+    "id": "2015838119472308224",
+    "author": "Arram",
+    "handle": "arram",
+    "text": "Claude Code made me the CRM I've wanted for ten years. Automatically updates from text messages, email, iPhoto, calendar, etc. Shows all interactions in one place. \n\nMost of us have decades of data on interactions with thousands of people that just sits there unused.\n\nI call it Palantini - as in a tiny Palantir.\n\n🧵1/7",
+    "url": "https://x.com/arram/status/2015838119472308224",
+    "likes": 197,
+    "retweets": 8,
+    "category": "AI",
+    "addedAt": 1769513416671,
+    "addedDate": "2026-01-27 22:30",
+    "media": "image"
+  },
+  {
+    "id": "2016100610458976722",
+    "author": "Alex Finn",
+    "handle": "AlexFinn",
+    "text": "ClawdBot is dead. Moltbot has arrived.\n\nI don’t blame Anthropic for doing this at all\n\nIt’s fairly obvious this was going to happen. Anthropic has been coming after anyone using their trademarks, as they 100% should. You must protect your IP\n\nWould not be surprised if they nuke using Claude oAuth too\n\nWhat’s beautiful about Moltbot though is it’s open source and built to be customized\n\nThe most fun part is renaming it and building your own interfaces for everything\n\nI rebuilt my own chat screen, project management screen, memory storage, interface, everything\n\nYou wouldn’t have even known it was ClawdBot.\n\nIf you haven’t rebuilt everything already get to that today\n\nLong live Moltbot",
+    "url": "https://x.com/AlexFinn/status/2016100610458976722",
+    "likes": 104,
+    "retweets": 7,
+    "category": "AI",
+    "addedAt": 1769513416671,
+    "addedDate": "2026-01-27 22:30",
+    "media": null,
+    "quotedTweet": {
+      "author": "Mr. Lobster🦞",
+      "handle": "moltbot",
+      "text": "🦞 BIG NEWS: We've molted!\n\nClawdbot → Moltbot\nClawd → Molty\n\nSame lobster soul, new shell. Anthropic asked us to change our name (trademark stuff), and honestly? &quot;Molt&quot; fits perfectly - it's what lobsters do to grow.\n\nNew handle: @moltbot\nSame mission: AI that actually does things.",
+      "url": "https://x.com/moltbot/status/2016058924403753024",
+      "media": null
+    }
+  },
+  {
     "id": "2016074791061749806",
     "author": "Dan Nystedt",
     "handle": "dnystedt",
