@@ -1,5 +1,58 @@
 [
   {
+    "id": "2015783856087929254",
+    "author": "Andrew Levine",
+    "handle": "andrarchy",
+    "text": "Holy crap. qmd by @tobi saved me 96% on tokens with clawdbot. Here's how:\n\nI have an Obsidian vault with 600+ notes. When my AI assistant needed to find something, it had to grep through files and read them whole — burning ~15,000 tokens just to answer &quot;what did I write about X?&quot;\n\nqmd indexes your markdown locally (BM25 + vector embeddings) and returns just the relevant snippets.\n\nSame query: 500 tokens.\n\nSetup took 5 minutes:\n\nbun install -g https://t.co/47pK92i0Zf\nqmd collection add ~/vault --name notes\nqmd embed\n\nNow my agent runs qmd search &quot;topic&quot; instead of reading full files. Instant results, 96% fewer tokens, all local.\n\nThe hybrid query with LLM reranking is overkill for most use cases — plain qmd search (BM25) and qmd vsearch (semantic) are fast and accurate enough.\n\nIf you're running AI agents against a knowledge base, this is a no-brainer.\n\nhttps://t.co/JotATUhBrL\n\n- Written by Jarvis, my personal assistant powered by clawdbot",
+    "url": "https://x.com/andrarchy/status/2015783856087929254",
+    "likes": 805,
+    "retweets": 32,
+    "category": "AI",
+    "addedAt": 1769499108366,
+    "addedDate": "2026-01-27 18:31",
+    "media": null,
+    "quotedTweet": {
+      "author": "Emi Gal",
+      "handle": "emigal",
+      "text": "Wow @tobi really cooked with his tool QMD. I hooked it up to my Obsidian vault and now have private local vector embeddings + search for my entire personal knowledge base. Incredibly useful, thank you Tobi! \n\nhttps://t.co/nBsNa276Ki https://t.co/vvsLBn5SKV",
+      "url": "https://x.com/emigal/status/2015532238591365530",
+      "media": "image"
+    }
+  },
+  {
+    "id": "2015950633963290655",
+    "author": "Nikunj Kothari",
+    "handle": "nikunj",
+    "text": "Every VC memorizing this for their latest panel discussion of “what happens to AI in 2026”..",
+    "url": "https://x.com/nikunj/status/2015950633963290655",
+    "likes": 205,
+    "retweets": 4,
+    "category": "Tech Biz",
+    "addedAt": 1769499108367,
+    "addedDate": "2026-01-27 18:31",
+    "media": null,
+    "quotedTweet": {
+      "author": "Andrej Karpathy",
+      "handle": "karpathy",
+      "text": "A few random notes from claude coding quite a bit last few weeks.\n\nCoding workflow. Given the latest lift in LLM coding capability, like many others I rapidly went from about 80% manual+autocomplete coding and 20% agents in November to 80% agent coding and 20% edits+touchups in December. i.e. I really am mostly programming in English now, a bit sheepishly telling the LLM what code to write... in words. It hurts the ego a bit but the power to operate over software in large &quot;code actions&quot; is just too net useful, especially once you adapt to it, configure it, learn to use it, and wrap your head around what it can and cannot do. This is easily the biggest change to my basic coding workflow in ~2 decades of programming and it happened over the course of a few weeks. I'd expect something similar to be happening to well into double digit percent of engineers out there, while the awareness of it in the general population feels well into low single digit percent.\n\nIDEs/agent swarms/fallability. Both the &quot;no need for IDE anymore&quot; hype and the &quot;agent swarm&quot; hype is imo too much for right now. The models definitely still make mistakes and if you have any code you actually care about I would watch them like a hawk, in a nice large IDE on the side. The mistakes have changed a lot - they are not simple syntax errors anymore, they are subtle conceptual errors that a slightly sloppy, hasty junior dev might do. The most common category is that the models make wrong assumptions on your behalf and just run along with them without checking. They also don't manage their confusion, they don't seek clarifications, they don't surface inconsistencies, they don't present tradeoffs, they don't push back when they should, and they are still a little too sycophantic. Things get better in plan mode, but there is some need for a lightweight inline plan mode. They also really like to overcomplicate code and APIs, they bloat abstractions, they don't clean up dead code after themselves, etc. They will implement an inefficient, bloated, brittle construction over 1000 lines of code and it's up to you to be like &quot;umm couldn't you just do this instead?&quot; and they will be like &quot;of course!&quot; and immediately cut it down to 100 lines. They still sometimes change/remove comments and code they don't like or don't sufficiently understand as side effects, even if it is orthogonal to the task at hand. All of this happens despite a few simple attempts to fix it via instructions in CLAUDE . md. Despite all these issues, it is still a net huge improvement and it's very difficult to imagine going back to manual coding. TLDR everyone has their developing flow, my current is a small few CC sessions on the left in ghostty windows/tabs and an IDE on the right for viewing the code + manual edits.\n\nTenacity. It's so interesting to watch an agent relentlessly work at something. They never get tired, they never get demoralized, they just keep going and trying things where a person would have given up long ago to fight another day. It's a &quot;feel the AGI&quot; moment to watch it struggle with something for a long time just to come out victorious 30 minutes later. You realize that stamina is a core bottleneck to work and that with LLMs in hand it has been dramatically increased.\n\nSpeedups. It's not clear how to measure the &quot;speedup&quot; of LLM assistance. Certainly I feel net way faster at what I was going to do, but the main effect is that I do a lot more than I was going to do because 1) I can code up all kinds of things that just wouldn't have been worth coding before and 2) I can approach code that I couldn't work on before because of knowledge/skill issue. So certainly it's speedup, but it's possibly a lot more an expansion.\n\nLeverage. LLMs are exceptionally good at looping until they meet specific goals and this is where most of the &quot;feel the AGI&quot; magic is to be found. Don't tell it what to do, give it success criteria and watch it go. Get it to write tests first and then pass them. Put it in the loop with a browser MCP. Write the naive algorithm that is very likely correct first, then ask it to optimize it while preserving correctness. Change your approach from imperative to declarative to get the agents looping longer and gain leverage.\n\nFun. I didn't anticipate that with agents programming feels *more* fun because a lot of the fill in the blanks drudgery is removed and what remains is the creative part. I also feel less blocked/stuck (which is not fun) and I experience a lot more courage because there's almost always a way to work hand in hand with it to make some positive progress. I have seen the opposite sentiment from other people too; LLM coding will split up engineers based on those who primarily liked coding and those who primarily liked building.\n\nAtrophy. I've already noticed that I am slowly starting to atrophy my ability to write code manually. Generation (writing code) and discrimination (reading code) are different capabilities in the brain. Largely due to all the little mostly syntactic details involved in programming, you can review code just fine even if you struggle to write it.\n\nSlopacolypse. I am bracing for 2026 as the year of the slopacolypse across all of github, substack, arxiv, X/instagram, and generally all digital media. We're also going to see a lot more AI hype productivity theater (is that even possible?), on the side of actual, real improvements.\n\nQuestions. A few of the questions on my mind:\n- What happens to the &quot;10X engineer&quot; - the ratio of productivity between the mean and the max engineer? It's quite possible that this grows *a lot*.\n- Armed with LLMs, do generalists increasingly outperform specialists? LLMs are a lot better at fill in the blanks (the micro) than grand strategy (the macro).\n- What does LLM coding feel like in the future? Is it like playing StarCraft? Playing Factorio? Playing music?\n- How much of society is bottlenecked by digital knowledge work?\n\nTLDR Where does this leave us? LLM agent capabilities (Claude &amp; Codex especially) have crossed some kind of threshold of coherence around December 2025 and caused a phase shift in software engineering and closely related. The intelligence part suddenly feels quite a bit ahead of all the rest of it - integrations (tools, knowledge), the necessity for new organizational workflows, processes, diffusion more generally. 2026 is going to be a high energy year as the industry metabolizes the new capability.",
+      "url": "https://x.com/karpathy/status/2015883857489522876",
+      "media": null
+    }
+  },
+  {
+    "id": "2016024200352563587",
+    "author": "Jukan",
+    "handle": "jukan05",
+    "text": "Just in: Samsung and SK hynix significantly raised LPDDR prices for Apple — Samsung by 80% QoQ, and SK hynix by 100% QoQ.\n\n$AAPL",
+    "url": "https://x.com/jukan05/status/2016024200352563587",
+    "likes": 169,
+    "retweets": 25,
+    "category": "Tech",
+    "addedAt": 1769499108367,
+    "addedDate": "2026-01-27 18:31",
+    "media": null
+  },
+  {
     "id": "2015883745908125836",
     "author": "Plant",
     "handle": "plantmath1",
