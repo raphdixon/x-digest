@@ -1,5 +1,77 @@
 [
   {
+    "id": "2016056449022005537",
+    "author": "BURKOV",
+    "handle": "burkov",
+    "text": "This paper discusses methods to extend LLMs into interactive agentic systems that incorporate planning, tool use, and search.\n\nThe authors from Meta, Amazon, Deepmind, and other top private and public labs consider in-context approaches that adapt during inference without altering weights and post-training methods that refine the model through reinforcement learning.\n\nRead with an AI tutor: https://t.co/E4jknoWZ9f\n\nRead alone: https://t.co/sWGups581J",
+    "url": "https://x.com/burkov/status/2016056449022005537",
+    "likes": 11,
+    "retweets": 2,
+    "category": "AI",
+    "addedAt": 1769503720197,
+    "addedDate": "2026-01-27 19:48",
+    "media": "image"
+  },
+  {
+    "id": "1998138514949525680",
+    "author": "Cato Networks",
+    "handle": "CatoNetworks",
+    "text": "GenAI adoption didn’t follow protocol—it followed curiosity. Productivity tools are bypassing security, exposing massive risks. Legacy stacks weren’t built for this. Our eBook gives IT and security leaders clarity on Shadow AI, key questions, and architecture to control it.",
+    "url": "https://x.com/CatoNetworks/status/1998138514949525680",
+    "likes": 23,
+    "retweets": 3,
+    "category": "Scandal",
+    "addedAt": 1769503720197,
+    "addedDate": "2026-01-27 19:48",
+    "media": null
+  },
+  {
+    "id": "2016008877549171108",
+    "author": "Chris Bakke",
+    "handle": "ChrisJBakke",
+    "text": "Watching my friends spend $1500 and 30 hours of their time setting up an AI chatbot that summarizes the weather: https://t.co/6IcD6o3mBW",
+    "url": "https://x.com/ChrisJBakke/status/2016008877549171108",
+    "likes": 394,
+    "retweets": 21,
+    "category": "AI",
+    "addedAt": 1769503720197,
+    "addedDate": "2026-01-27 19:48",
+    "media": "video"
+  },
+  {
+    "id": "2015937288245571789",
+    "author": "Andrew Rush",
+    "handle": "TempoZP",
+    "text": "It's astonishing to me how many people are still sleeping on how big Deadlock is going to be over the next few years. \n\nRelease Deadlock is likely to hit 1.5-2M CCU on steam.  \n\nGetting in on Deadlock now is the gaming equivalent of buying Apple stock pre-iPhone.  But many won't.",
+    "url": "https://x.com/TempoZP/status/2015937288245571789",
+    "likes": 1822,
+    "retweets": 60,
+    "category": "Tech",
+    "addedAt": 1769503720197,
+    "addedDate": "2026-01-27 19:48",
+    "media": null
+  },
+  {
+    "id": "2016062701303116123",
+    "author": "BURKOV",
+    "handle": "burkov",
+    "text": "Stop reading AI-generated code. It's no longer for humans.",
+    "url": "https://x.com/burkov/status/2016062701303116123",
+    "likes": 9,
+    "retweets": 0,
+    "category": "AI",
+    "addedAt": 1769503720197,
+    "addedDate": "2026-01-27 19:48",
+    "media": null,
+    "quotedTweet": {
+      "author": "Dmitrii Kovanikov",
+      "handle": "ChShersh",
+      "text": "Don’t get me wrong. I’m having fun building with AI.\n\nBut the code AI produces is atrocious.\n\nI’m just surprised that such bad code still works.",
+      "url": "https://x.com/ChShersh/status/2016037209883734502",
+      "media": null
+    }
+  },
+  {
     "id": "2015913959665152012",
     "author": "Nathan Covey",
     "handle": "nathan_covey",
