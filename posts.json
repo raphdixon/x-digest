@@ -1,5 +1,51 @@
 [
   {
+    "id": "2016163577007137134",
+    "author": "Gergely Orosz",
+    "handle": "GergelyOrosz",
+    "text": "This is interest is nuts\n\nComing from an open source, 1-person project\n\nEven more amusing as Clawdbot (now: Molt bot, as of today, renamed after Anthriopic request) runs on top of Claude or Codex or other LLMs https://t.co/dyeLkL1j02",
+    "url": "https://x.com/GergelyOrosz/status/2016163577007137134",
+    "likes": 3,
+    "retweets": 0,
+    "category": "AI",
+    "addedAt": 1769526009410,
+    "addedDate": "2026-01-28 02:00",
+    "media": "image"
+  },
+  {
+    "id": "2016162257005383726",
+    "author": "Rohan Paul",
+    "handle": "rohanpaul_ai",
+    "text": "Columbia CS Prof explains why LLMs can’t generate new scientific ideas.\n\nBcz LLMs learn a structured “map”, Bayesian manifold, of known data and work well within it, but fail outside it. \nBut true discovery means creating new maps, which LLMs cannot do.\nhttps://t.co/PzI0YrTTeT",
+    "url": "https://x.com/rohanpaul_ai/status/2016162257005383726",
+    "likes": 4,
+    "retweets": 0,
+    "category": "AI",
+    "addedAt": 1769526009410,
+    "addedDate": "2026-01-28 02:00",
+    "media": "video",
+    "quotedTweet": {
+      "author": "Rohan Paul",
+      "handle": "rohanpaul_ai",
+      "text": "Yann LeCun (@ylecun) just revealed why he left Meta, Why are LLMs an extremely narrow field, and how &quot;World model&quot; is the way to build really meaningful agentic future. 🎯\n\nBeautiful and simple in 1.5 mints.\n\n&quot;I can’t imagine we can build agentic systems without those systems having the ability to predict, in advance, what the consequences of their actions are going to be. The way we act in the world is that we can predict the consequences of our actions, and that’s what allows us to plan.\n\nSo what is a world model? Given the state of an environment, a system you want to control at time t, and given an action or intervention you imagine taking, can you predict the state of the world (or the system) at time t + 1? If you can, that’s a world model. You don’t do this at a pixel level, if it’s video. You do this in an abstract representation space, and that’s a crucial key insight.&quot;\n\n---\n\nFrom 'AI House Davos&quot; YT channel (full link in comment)",
+      "url": "https://x.com/rohanpaul_ai/status/2015081447888212326",
+      "media": "video"
+    }
+  },
+  {
+    "id": "2016158517686661135",
+    "author": "ADWEEK",
+    "handle": "Adweek",
+    "text": ".@LAYS will return to the Super Bowl for the second consecutive year with a mysterious six-second teaser showing a hand emerging from a field holding a potato. \n\nThe cryptic ad, part of the brand's largest-ever refresh, continues the farm-to-chip narrative from last year's &quot;The Little Farmer.&quot; \n\n&quot;There's no better moment than the Super Bowl to continue the Lay's story,&quot; said Hernán Tantardini, CMO of @PepsiCo Foods U.S., promising to showcase &quot;what makes America's favorite chip so special&quot; on advertising's biggest stage. https://t.co/VFmtUF5VEz",
+    "url": "https://x.com/Adweek/status/2016158517686661135",
+    "likes": 0,
+    "retweets": 0,
+    "category": "Chips",
+    "addedAt": 1769526009410,
+    "addedDate": "2026-01-28 02:00",
+    "media": "video"
+  },
+  {
     "id": "2016156511605821446",
     "author": "steve hsu",
     "handle": "hsu_steve",
