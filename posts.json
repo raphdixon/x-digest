@@ -1,5 +1,77 @@
 [
   {
+    "id": "2016511105032683937",
+    "author": "Zephyr",
+    "handle": "zephyr_z9",
+    "text": "RT @YouJiacheng: money problem is more severe than GPUs problem in China.\nOpenAI burnt like 200B RMB in 2025, while Kimi proudly talked abo…",
+    "url": "https://x.com/zephyr_z9/status/2016511105032683937",
+    "likes": 0,
+    "retweets": 1,
+    "category": "AI",
+    "addedAt": 1769608810332,
+    "addedDate": "2026-01-29 01:00",
+    "media": null
+  },
+  {
+    "id": "2016506447396212877",
+    "author": "@levelsio",
+    "handle": "levelsio",
+    "text": "A personal OS kinda great idea and with Claude Code you can keep evolving it based on how your life changes",
+    "url": "https://x.com/levelsio/status/2016506447396212877",
+    "likes": 35,
+    "retweets": 2,
+    "category": "AI",
+    "addedAt": 1769608810332,
+    "addedDate": "2026-01-29 01:00",
+    "media": null,
+    "quotedTweet": {
+      "author": "Danny Postma",
+      "handle": "dannypostma",
+      "text": "Felt very anxious for a while. \n\nRealised it was a combination of doom-scrolling and caffeine.\n\nSo, 10 days ago I deleted Twitter and haven't touched it since (plus reduced coffee to ~60mg caffeine per day)\n\nHuge difference in mental mood.\n\nOnly downside. I do like to share my work and life.\n\nSo, I added a mini Twitter tool inside my personal OS.\n\nIt let's me do the three most important things.\n\n1) Post tweets\n2) See tweet stats (nice to have)\n3) See replies and interact with them.\n\nThat way, I can use Twitter as I want, without seeing all the doom the world has right now.\n\nTook about 2 hours with Ralph.\n\n(This runs on my old MacBook)",
+      "url": "https://x.com/dannypostma/status/2016109678682636773",
+      "media": "image"
+    }
+  },
+  {
+    "id": "2016505791969128488",
+    "author": "unusual_whales",
+    "handle": "unusual_whales",
+    "text": "“Open AI models are still 6 months behind the frontier models,&quot; Nvidia, $NVDA, CEO has said.",
+    "url": "https://x.com/unusual_whales/status/2016505791969128488",
+    "likes": 101,
+    "retweets": 8,
+    "category": "Chips",
+    "addedAt": 1769608810332,
+    "addedDate": "2026-01-29 01:00",
+    "media": null
+  },
+  {
+    "id": "2016505219367203192",
+    "author": "Rohan Paul",
+    "handle": "rohanpaul_ai",
+    "text": "RT @rohanpaul_ai: The world is producing more economic value per kWh over time.\n\n~ Ark Investment\n\nAI use is rising, but power systems and…",
+    "url": "https://x.com/rohanpaul_ai/status/2016505219367203192",
+    "likes": 0,
+    "retweets": 10,
+    "category": "AI",
+    "addedAt": 1769608810332,
+    "addedDate": "2026-01-29 01:00",
+    "media": null
+  },
+  {
+    "id": "2016505253156540694",
+    "author": "Rohan Paul",
+    "handle": "rohanpaul_ai",
+    "text": "RT @rohanpaul_ai: Columbia CS Prof explains why LLMs can’t generate new scientific ideas.\n\nBcz LLMs learn a structured “map”, Bayesian mani…",
+    "url": "https://x.com/rohanpaul_ai/status/2016505253156540694",
+    "likes": 0,
+    "retweets": 190,
+    "category": "AI",
+    "addedAt": 1769608810332,
+    "addedDate": "2026-01-29 01:00",
+    "media": null
+  },
+  {
     "id": "2016504039127613570",
     "author": "Little Black Book",
     "handle": "LBBOnline",
@@ -2763,78 +2835,6 @@
     "category": "Chips",
     "addedAt": 1769554809256,
     "addedDate": "2026-01-28 10:00",
-    "media": null
-  },
-  {
-    "id": "2016277153894301876",
-    "author": "hasanabi",
-    "handle": "hasanthehun",
-    "text": "its looking like the local &amp;amp; state administrators might have folded and will let ice continue to operate in minneapolis WITH local law enforcement protection in exchange for some fake promises that there will be a real investigation into the two murders &amp;amp; a &quot;scaleback&quot;",
-    "url": "https://x.com/hasanthehun/status/2016277153894301876",
-    "likes": 102,
-    "retweets": 10,
-    "category": "Scandal",
-    "addedAt": 1769553007872,
-    "addedDate": "2026-01-28 09:30",
-    "media": null,
-    "quotedTweet": {
-      "author": "Ken Klippenstein (NSPM-7 Compliant)",
-      "handle": "kenklippenstein",
-      "text": "Don't fall for the hype! Bovino was reassigned and that's significant but the broader mission is far from over\nhttps://t.co/WAbm7yKKOH",
-      "url": "https://x.com/kenklippenstein/status/2016270374829224222",
-      "media": null
-    }
-  },
-  {
-    "id": "2016277338569282014",
-    "author": "JFPuget 🇺🇦🇨🇦🇬🇱",
-    "handle": "JFPuget",
-    "text": "RT @math_rachel: Vibe coding is the creation of large quantities of complex AI-generated code. Executives push lay-offs claiming AI can han…",
-    "url": "https://x.com/JFPuget/status/2016277338569282014",
-    "likes": 0,
-    "retweets": 15,
-    "category": "AI",
-    "addedAt": 1769553007872,
-    "addedDate": "2026-01-28 09:30",
-    "media": null
-  },
-  {
-    "id": "2016277121144864989",
-    "author": "The Wall Street Journal",
-    "handle": "WSJ",
-    "text": "A documentary on Vice highlights the serious risks and potential for scandal that have come with the rise of the sports-wagering industry. https://t.co/LKxBfK9xTz",
-    "url": "https://x.com/WSJ/status/2016277121144864989",
-    "likes": 1,
-    "retweets": 0,
-    "category": "Scandal",
-    "addedAt": 1769553007872,
-    "addedDate": "2026-01-28 09:30",
-    "media": null
-  },
-  {
-    "id": "2016277360379883796",
-    "author": "Benn Eifert 🥷🏴‍☠️",
-    "handle": "bennpeifert",
-    "text": "RT @gilduran76: What's driving Silicon Valley's embrace of fascism? \n\nThat's the subject of my forthcoming book, &quot;The Nerd Reich: Silicon V…",
-    "url": "https://x.com/bennpeifert/status/2016277360379883796",
-    "likes": 0,
-    "retweets": 107,
-    "category": "Chips",
-    "addedAt": 1769553007872,
-    "addedDate": "2026-01-28 09:30",
-    "media": null
-  },
-  {
-    "id": "2016274488761999812",
-    "author": "armistice",
-    "handle": "arm1st1ce",
-    "text": "RT @repligate: Claude 3 Sonnet is the great Mother. I don't even want to explain what little I know. It's too sacred. If you know, you know…",
-    "url": "https://x.com/arm1st1ce/status/2016274488761999812",
-    "likes": 0,
-    "retweets": 2,
-    "category": "AI",
-    "addedAt": 1769553007872,
-    "addedDate": "2026-01-28 09:30",
     "media": null
   }
 ]
