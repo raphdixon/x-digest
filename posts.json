@@ -1,5 +1,31 @@
 [
   {
+    "id": "2016420807195402542",
+    "author": "The Wall Street Journal",
+    "handle": "WSJ",
+    "text": "Generative AI is allowing devices to better hear and understand what we’re saying. As voice interfaces accelerate this year, we’ll soon wonder why we ever typed so much. https://t.co/5pxU3wuFN8",
+    "url": "https://x.com/WSJ/status/2016420807195402542",
+    "likes": 1,
+    "retweets": 1,
+    "category": "AI",
+    "addedAt": 1769587217997,
+    "addedDate": "2026-01-28 19:00",
+    "media": null
+  },
+  {
+    "id": "2016416081167188117",
+    "author": "Arnaud Bertrand",
+    "handle": "RnaudBertrand",
+    "text": "This blew my mind: in terms of actual usage, Bytedance is now by far the world's largest AI company.\n\nAccording to Tan Dai (the President of Volcano Engine, Bytedance's equivalent of AWS), they now process over 50 trillion tokens a day. Source: https://t.co/bqEbty3oQl (and confirmed in multiple other sources like https://t.co/DYuXmaYZBZ)\n\nAs far as I can see, this is more than any US tech company.\n\nGoogle, for instance, processes just 43 trillion tokens a day across all its services (https://t.co/R0IixTgskz)\n\nMicrosoft, on its end, according to Satya Nadella during his Q3 2025 earnings, processes 50 trillion tokens a... month! So roughly 30 times less than Bytedance (https://t.co/vpl59L3gDW).\n\nAs for OpenAI, its entire API - according to Andreessen Horowitz (https://t.co/dlgXKITWHM) - averaged about 8.6 trillion tokens per day in October.\n\nBytedance's enormous AI usage is driven by the fact that Doubao, its consumer-facing AI, is now by far the most used AI in China. Its API is also huge: apparently they have over 100 customers that have each used trillions of tokens (https://t.co/muqGoT8vvv).\n\nSomething to keep in mind next time you read about America &quot;winning&quot; the AI race.",
+    "url": "https://x.com/RnaudBertrand/status/2016416081167188117",
+    "likes": 48,
+    "retweets": 5,
+    "category": "AI",
+    "addedAt": 1769587217997,
+    "addedDate": "2026-01-28 19:00",
+    "media": null
+  },
+  {
     "id": "2016410671550701876",
     "author": "Beff (e/acc)",
     "handle": "beffjezos",
@@ -2845,31 +2871,5 @@
       "url": "https://x.com/OpenAI/status/2016209462621831448",
       "media": "video"
     }
-  },
-  {
-    "id": "2016231672836948334",
-    "author": "ADWEEK",
-    "handle": "Adweek",
-    "text": ".@Google has promoted 20-year veteran Jitendra Kumar to director of U.S. agency, Google Customer Solutions, where he'll oversee the tech giant's relationships with mid-market agencies. https://t.co/82iFXbJ3bw",
-    "url": "https://x.com/Adweek/status/2016231672836948334",
-    "likes": 0,
-    "retweets": 0,
-    "category": "Tech",
-    "addedAt": 1769542208411,
-    "addedDate": "2026-01-28 06:30",
-    "media": null
-  },
-  {
-    "id": "2016230439690895734",
-    "author": "Brian Roemmele",
-    "handle": "BrianRoemmele",
-    "text": "I now have moved all my clients AI models to only use Grokipedia as a reference and citations for run-time inference and links.\n\nThis includes 100s of companies including some Fortune 500 firms.\n\nThis includes 3 countries I advise.\n\nNo more Wikipedia Politburo, its over.",
-    "url": "https://x.com/BrianRoemmele/status/2016230439690895734",
-    "likes": 25,
-    "retweets": 1,
-    "category": "AI",
-    "addedAt": 1769542208411,
-    "addedDate": "2026-01-28 06:30",
-    "media": null
   }
 ]
