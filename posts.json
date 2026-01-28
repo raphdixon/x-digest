@@ -1,5 +1,44 @@
 [
   {
+    "id": "2016427779198201908",
+    "author": "Campaign",
+    "handle": "Campaignmag",
+    "text": "Exclusive: @MotherLondon appoints heads of strategy https://t.co/pi0b43g9eA",
+    "url": "https://x.com/Campaignmag/status/2016427779198201908",
+    "likes": 0,
+    "retweets": 0,
+    "category": "Scuttlebutt",
+    "addedAt": 1769589011436,
+    "addedDate": "2026-01-28 19:30",
+    "media": null
+  },
+  {
+    "id": "2016425572155695294",
+    "author": "Rohan Paul",
+    "handle": "rohanpaul_ai",
+    "text": "Clawdbot creator @steipete prefers OpenAI Codex over Claude Opus for coding tasks.\n\n&quot;because it can navigate large codebases. You can prompt and have 95% certainty that it actually works. With Claude Code you need more tricks to get the same.&quot;\nhttps://t.co/c7Y0dDnPJm",
+    "url": "https://x.com/rohanpaul_ai/status/2016425572155695294",
+    "likes": 4,
+    "retweets": 0,
+    "category": "AI",
+    "addedAt": 1769589011438,
+    "addedDate": "2026-01-28 19:30",
+    "media": "video"
+  },
+  {
+    "id": "2016423249660248411",
+    "author": "Towards Data Science",
+    "handle": "TDataScience",
+    "text": "Visualizing abstract machine learning concepts can deepen understanding. Angela Shi uses #Excel to demonstrate the behavior of various gradient descent optimizers. \n\nhttps://t.co/ruO25CEn5L",
+    "url": "https://x.com/TDataScience/status/2016423249660248411",
+    "likes": 0,
+    "retweets": 1,
+    "category": "AI",
+    "addedAt": 1769589011438,
+    "addedDate": "2026-01-28 19:30",
+    "media": null
+  },
+  {
     "id": "2016420807195402542",
     "author": "The Wall Street Journal",
     "handle": "WSJ",
@@ -2825,51 +2864,5 @@
     "addedAt": 1769544008706,
     "addedDate": "2026-01-28 07:00",
     "media": null
-  },
-  {
-    "id": "2016232261021274167",
-    "author": "Matt Slotnick",
-    "handle": "matt_slotnick",
-    "text": "it's easy to build things. but it's hard to build them well. does AI change that?",
-    "url": "https://x.com/matt_slotnick/status/2016232261021274167",
-    "likes": 1,
-    "retweets": 0,
-    "category": "AI",
-    "addedAt": 1769544008706,
-    "addedDate": "2026-01-28 07:00",
-    "media": null
-  },
-  {
-    "id": "2016232240888611259",
-    "author": "EMARKETER",
-    "handle": "eMarketer",
-    "text": "Over 65% say TV helped drive revenue and growth in 2025, according to @tv_scientific data. In a new report, learn how TV fits into the AI-driven modern media mix and how teams are proving real impact.\n\nGet the Guide: https://t.co/IWk6eUvFdR https://t.co/iPgWFvssjB",
-    "url": "https://x.com/eMarketer/status/2016232240888611259",
-    "likes": 0,
-    "retweets": 0,
-    "category": "AI",
-    "addedAt": 1769542208411,
-    "addedDate": "2026-01-28 06:30",
-    "media": "image"
-  },
-  {
-    "id": "2016231948637569366",
-    "author": "flux",
-    "handle": "fluxtheorist",
-    "text": "I want to hate OpenAI more, but the fact that they used a black hole paper as the example here and a  commutative diagram for the TikZ….damn it I want to hate it so much, but I can’t",
-    "url": "https://x.com/fluxtheorist/status/2016231948637569366",
-    "likes": 0,
-    "retweets": 0,
-    "category": "AI",
-    "addedAt": 1769542208411,
-    "addedDate": "2026-01-28 06:30",
-    "media": null,
-    "quotedTweet": {
-      "author": "OpenAI",
-      "handle": "OpenAI",
-      "text": "Introducing Prism, a free workspace for scientists to write and collaborate on research, powered by GPT-5.2.\n\nAvailable today to anyone with a ChatGPT personal account: https://t.co/9mTLAbxPdH https://t.co/GJOIipU3hx",
-      "url": "https://x.com/OpenAI/status/2016209462621831448",
-      "media": "video"
-    }
   }
 ]
