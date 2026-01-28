@@ -1,5 +1,51 @@
 [
   {
+    "id": "2016611419228414277",
+    "author": "tphuang",
+    "handle": "tphuang",
+    "text": "China's December ranking for ADAS chip installation &amp; domain controllers.\n\nNvidia remains on top w/ 45.5% share followed by Tesla 17.2% (just for Tesla vehicles), HW 13.5% &amp; Horizon 9.7%.\n\nNIO (2.7%) &amp; XPeng (1.3%) also showed up.\nFor domain controller, BYD leads w/ 28.7% share &amp; followed by Desay @ 22.4%, HW 14.2% &amp; Tesla 10.4%.\n\nYou can see that NIO &amp; Leapmotor also develop their own domain controllers. DJI Auto, Freetech &amp; Luxshare round out the top 10.\n\nAs a whole, Nvidia share is reducing, but many automakers (including BYD) still use it for a lot of their models (despite Horizon J6M becoming available). Now, as more Chinese automakers develop their own ADAS chip, I can see Nvidia losing significant shares in 2026.",
+    "url": "https://x.com/tphuang/status/2016611419228414277",
+    "likes": 8,
+    "retweets": 0,
+    "category": "Chips",
+    "addedAt": 1769634008901,
+    "addedDate": "2026-01-29 08:00",
+    "media": "image"
+  },
+  {
+    "id": "2016614122574528849",
+    "author": "Berwyn Choobs",
+    "handle": "sabatonfan69",
+    "text": "Y’all weren’t there sneaking away from the family gathering to turn on toonami and catch the end of the land of waves arc \n\nKids these days just google GOJO penis and BALLS while watching on their damn IPAD",
+    "url": "https://x.com/sabatonfan69/status/2016614122574528849",
+    "likes": 22,
+    "retweets": 2,
+    "category": "Tech",
+    "addedAt": 1769634008901,
+    "addedDate": "2026-01-29 08:00",
+    "media": null,
+    "quotedTweet": {
+      "author": "gifs &amp; images naruto",
+      "handle": "narutoimges",
+      "text": "https://t.co/5tmA4ty6Ns",
+      "url": "https://x.com/narutoimges/status/2016329607444607262",
+      "media": "image"
+    }
+  },
+  {
+    "id": "2016610996815589411",
+    "author": "The Nation",
+    "handle": "thenation",
+    "text": "For the past year, the main institutionalist strategy has been to lean into lawsuits in the hope the law would save us. But, writes @ElieNYC, Minneapolis proves what history has always shown: the law is a lagging indicator. The people always lead the way.\nhttps://t.co/tHLqJxPwOv",
+    "url": "https://x.com/thenation/status/2016610996815589411",
+    "likes": 3,
+    "retweets": 0,
+    "category": "Scandal",
+    "addedAt": 1769634008901,
+    "addedDate": "2026-01-29 08:00",
+    "media": null
+  },
+  {
     "id": "2008346311008084236",
     "author": "CMC Markets ANZ",
     "handle": "CMCMarketsAusNZ",
@@ -2731,52 +2777,6 @@
     "likes": 4,
     "retweets": 5,
     "category": "Chips",
-    "addedAt": 1769585410313,
-    "addedDate": "2026-01-28 18:30",
-    "media": null
-  },
-  {
-    "id": "2016408192347984339",
-    "author": "Beff (e/acc)",
-    "handle": "beffjezos",
-    "text": "Stop working in SaaS folks\nJoin or create a hard tech company \n\nEverything below a certain complexity cutoff is not safe from being one-shotted by AI\n\nLuckily there is plenty of complexity in the world of atoms\n\nTime to do hard things again",
-    "url": "https://x.com/beffjezos/status/2016408192347984339",
-    "likes": 33,
-    "retweets": 1,
-    "category": "AI",
-    "addedAt": 1769585410313,
-    "addedDate": "2026-01-28 18:30",
-    "media": null,
-    "quotedTweet": {
-      "author": "Jason Carman",
-      "handle": "jasonjoyride",
-      "text": "Good lord man i've never been more excited about software and bearish on the people building it in my life\n\nAll of the new &quot;AI for this&quot; slop companies come out are hilarious because people will realize it's:\n\nlatest frontier model + prompt injection +UI = $30/mo crap SaaS app \n\nSAAS IS DEAD, EVERYONE is going to be using their own agents / custom stuff!!! And I mean everyone! \n\nGo work on real shit and make the world a better place because I guarantee almost none of these &quot;AI for marketing/sales/design&quot; etc., apps are lasting more than 18 months.",
-      "url": "https://x.com/jasonjoyride/status/2016407105138524558",
-      "media": null
-    }
-  },
-  {
-    "id": "2011920168910536895",
-    "author": "Supermicro",
-    "handle": "Supermicro",
-    "text": "Experience the future of financial‑grade edge computing: Supermicro’s AMD‑enabled AI PCs and edge nodes deliver secure, ultra‑fast AI inference wherever you need it.",
-    "url": "https://x.com/Supermicro/status/2011920168910536895",
-    "likes": 190,
-    "retweets": 16,
-    "category": "Chips",
-    "addedAt": 1769585410313,
-    "addedDate": "2026-01-28 18:30",
-    "media": null
-  },
-  {
-    "id": "1998138514949525680",
-    "author": "Cato Networks",
-    "handle": "CatoNetworks",
-    "text": "GenAI adoption didn’t follow protocol—it followed curiosity. Productivity tools are bypassing security, exposing massive risks. Legacy stacks weren’t built for this. Our eBook gives IT and security leaders clarity on Shadow AI, key questions, and architecture to control it.",
-    "url": "https://x.com/CatoNetworks/status/1998138514949525680",
-    "likes": 23,
-    "retweets": 3,
-    "category": "Scandal",
     "addedAt": 1769585410313,
     "addedDate": "2026-01-28 18:30",
     "media": null
