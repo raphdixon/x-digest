@@ -1,5 +1,77 @@
 [
   {
+    "id": "2016556886104166819",
+    "author": "Y Combinator",
+    "handle": "ycombinator",
+    "text": ".@VoxelEnergy builds off-grid, self-sustaining data centers. Their ex-Tesla team deploys MW's of compute in months, not years, by leveraging second-life EV batteries.\n\nCongrats on the launch @recnepSyesaC, @pfeiflyfe, and @schhhmidty!\n\nhttps://t.co/6WAouMEYpe https://t.co/QxNDPkZnyX",
+    "url": "https://x.com/ycombinator/status/2016556886104166819",
+    "likes": 0,
+    "retweets": 0,
+    "category": "Scandal",
+    "addedAt": 1769619609529,
+    "addedDate": "2026-01-29 04:00",
+    "media": "video"
+  },
+  {
+    "id": "2016554255222526244",
+    "author": "Jerome Powell #sucksquad team member",
+    "handle": "GarlicCorgi",
+    "text": "Still think AI is &quot;just slop&quot;?",
+    "url": "https://x.com/GarlicCorgi/status/2016554255222526244",
+    "likes": 35,
+    "retweets": 0,
+    "category": "AI",
+    "addedAt": 1769619609529,
+    "addedDate": "2026-01-29 04:00",
+    "media": null,
+    "quotedTweet": {
+      "author": "jboogx.creative",
+      "handle": "jboogx_creative",
+      "text": "The Cactus uses the smallest drop of water efficiently in order to survive the heat. https://t.co/x17t5tZP27",
+      "url": "https://x.com/jboogx_creative/status/2016210745814663199",
+      "media": "video"
+    }
+  },
+  {
+    "id": "2016552795248505234",
+    "author": "Yann LeCun",
+    "handle": "ylecun",
+    "text": "RT @ylecun: @scaling01 A few robotics AI companies are working on world models, planning, etc.\nBut the vast majority are using LLM-derived…",
+    "url": "https://x.com/ylecun/status/2016552795248505234",
+    "likes": 0,
+    "retweets": 12,
+    "category": "AI",
+    "addedAt": 1769619609529,
+    "addedDate": "2026-01-29 04:00",
+    "media": null
+  },
+  {
+    "id": "2016551948221108369",
+    "author": "9to5Mac",
+    "handle": "9to5mac",
+    "text": "Deals: AirPods Max $119 off, AirPods Pro 3, Apple Watch SE 3 $173, Trail Loop 50% off, more https://t.co/l4QWwfK3Vy by @justinkahnmusic",
+    "url": "https://x.com/9to5mac/status/2016551948221108369",
+    "likes": 8,
+    "retweets": 2,
+    "category": "Tech",
+    "addedAt": 1769619609529,
+    "addedDate": "2026-01-29 04:00",
+    "media": null
+  },
+  {
+    "id": "2016550618295390224",
+    "author": "Financial Times",
+    "handle": "FT",
+    "text": "The precious metal feeding frenzy https://t.co/FdmFN6RbiO",
+    "url": "https://x.com/FT/status/2016550618295390224",
+    "likes": 12,
+    "retweets": 5,
+    "category": "Tech",
+    "addedAt": 1769619609529,
+    "addedDate": "2026-01-29 04:00",
+    "media": null
+  },
+  {
     "id": "2016546057073668109",
     "author": "unusual_whales",
     "handle": "unusual_whales",
@@ -2729,91 +2801,5 @@
     "addedAt": 1769563853354,
     "addedDate": "2026-01-28 12:30",
     "media": null
-  },
-  {
-    "id": "2016318392450613636",
-    "author": "Dan Nystedt",
-    "handle": "dnystedt",
-    "text": "Nvidia’s new N1 and N1X chips will soon be out in consumer laptops from Dell and Lenovo, media report, noting the Arm-based chips with integrated Nvidia RTX-series (Blackwell) GPUs are made for Windows-on-Arm laptops. The chips are co-developed with Taiwan’s MediaTek and built using TSMC’s 3nm process. $NVDA $MSFT $ARM $DELL $LNVGY #mediatek #lenovo https://t.co/4tu29ChCw2",
-    "url": "https://x.com/dnystedt/status/2016318392450613636",
-    "likes": 11,
-    "retweets": 1,
-    "category": "Chips",
-    "addedAt": 1769563853354,
-    "addedDate": "2026-01-28 12:30",
-    "media": null
-  },
-  {
-    "id": "2016318247763882401",
-    "author": "Brian Roemmele",
-    "handle": "BrianRoemmele",
-    "text": "I introduced the wage and salary for AI and Robot compensation yesterday after decades in the payment industry and decades thinking about the challenges we face in the next 5000 days.\n\nSo folks asked for a good explanation, listen in here:\n\nPodcast: https://t.co/4nLl1TmLLg https://t.co/yUtVB2QlF6",
-    "url": "https://x.com/BrianRoemmele/status/2016318247763882401",
-    "likes": 38,
-    "retweets": 2,
-    "category": "AI",
-    "addedAt": 1769563853354,
-    "addedDate": "2026-01-28 12:30",
-    "media": "image",
-    "quotedTweet": {
-      "author": "Brian Roemmele",
-      "handle": "BrianRoemmele",
-      "text": "Introducing Wages for AI Agents in the Zero-Human Company.",
-      "url": "https://x.com/BrianRoemmele/status/2016055580692292083",
-      "media": null
-    }
-  },
-  {
-    "id": "2016316813139968437",
-    "author": "Zephyr",
-    "handle": "zephyr_z9",
-    "text": "Price increases have already started in MLCCs, PMICs,\nDDICs\n&quot;other components could also run short as the AI server boom continues to squeeze the rest of the supply chain.&quot;\n\n&quot;But Apple’s playbook is clear: use the market chaos to their advantage—secure the chips, absorb the costs, and grab more market share. They’ll make it back later on the services side.&quot;\nYes, they will also launch the $799 MacBooks to capture the entry level laptop market",
-    "url": "https://x.com/zephyr_z9/status/2016316813139968437",
-    "likes": 4,
-    "retweets": 1,
-    "category": "Chips",
-    "addedAt": 1769562457732,
-    "addedDate": "2026-01-28 12:07",
-    "media": null,
-    "quotedTweet": {
-      "author": "郭明錤 (Ming-Chi Kuo)",
-      "handle": "mingchikuo",
-      "text": "A few quick thoughts on Apple/iPhone memory price hikes:\n\n1. The 1Q26 LPDDR price hikes mentioned in the news are pretty close to what I’ve heard. NAND flash increases, however, are a bit lower.\n\n2. iPhone memory pricing is now negotiated quarterly instead of every six months, so expect another hike in 2Q26. Right now, the 2Q26 QoQ increase looks similar to 1Q26.\n\n3. For most non-AI brands, even if you’re willing to pay up, there’s no guarantee you’ll get the supply. The fact that Apple can lock in a deal like this shows just how much leverage they have.\n\n4. Higher memory costs will hit iPhone gross margins. But Apple’s playbook is clear: use the market chaos to their advantage—secure the chips, absorb the costs, and grab more market share. They’ll make it back later on the services side.\n\n5. The cost pressure from memory could be a hot topic for investors and analysts at Apple’s earnings call this week. What Apple says could actually shake up other industries’ stocks more than Apple’s own or its suppliers'.\n\n6. Apple’s current plan for 2H26 new iPhone 18 models is to avoid raising prices as much as possible—at least keep the starting price flat, which is helpful for marketing.\n\n7. Apple has realized that it’s not just memory and T-glass—other components could also run short as the AI server boom continues to squeeze the rest of the supply chain.\n\nhttps://t.co/yskVn1BDo4",
-      "url": "https://x.com/mingchikuo/status/2016213691075862869",
-      "media": null
-    }
-  },
-  {
-    "id": "2016316523699482756",
-    "author": "Y Combinator",
-    "handle": "ycombinator",
-    "text": "RT @kabra_sidhant: Engineering teams want to ship AI agents. 🚀\nSecurity teams block them because &quot;vibe-based&quot; testing isn't enough. 🛑\n\nThe…",
-    "url": "https://x.com/ycombinator/status/2016316523699482756",
-    "likes": 0,
-    "retweets": 1,
-    "category": "Scandal",
-    "addedAt": 1769562457732,
-    "addedDate": "2026-01-28 12:07",
-    "media": null
-  },
-  {
-    "id": "2016317127293014480",
-    "author": "@levelsio",
-    "handle": "levelsio",
-    "text": "They're positioning themselves as the AI app for high IQ and creative people with taste\n\nSo smart because ChatGPT kinda feels like it has become the AI app for normies now\n\nFirst active market positioning I see in the big AI apps to date",
-    "url": "https://x.com/levelsio/status/2016317127293014480",
-    "likes": 0,
-    "retweets": 0,
-    "category": "AI",
-    "addedAt": 1769562457732,
-    "addedDate": "2026-01-28 12:07",
-    "media": null,
-    "quotedTweet": {
-      "author": "Justine Moore",
-      "handle": "venturetwins",
-      "text": "Claude is going for the girls ✨\n\nMy IG and TikTok feeds have been flooded with sponsored Claude videos from one demographic of creator - artsy girls who can't code.\n\nI saw so many of them that I decided to start saving them down (excerpts ⬇️). There's definitely a pattern! https://t.co/i56kDy4VMH",
-      "url": "https://x.com/venturetwins/status/2016007023184511077",
-      "media": "video"
-    }
   }
 ]
