@@ -1,5 +1,90 @@
 [
   {
+    "id": "2010328589422530711",
+    "author": "Verda (formerly DataCrunch)",
+    "handle": "verdacloud",
+    "text": "NVIDIA B200 clusters. Self-service &amp;amp; pay-as-you-go ⚡️",
+    "url": "https://x.com/verdacloud/status/2010328589422530711",
+    "likes": 22,
+    "retweets": 2,
+    "category": "Chips",
+    "addedAt": 1769563853354,
+    "addedDate": "2026-01-28 12:30",
+    "media": null
+  },
+  {
+    "id": "2016321125257773424",
+    "author": "Dan Nystedt",
+    "handle": "dnystedt",
+    "text": "RT @dnystedt: Orders for AI servers have outstripped supply at Foxconn, the world’s biggest AI server maker, media report, adding it’s work…",
+    "url": "https://x.com/dnystedt/status/2016321125257773424",
+    "likes": 0,
+    "retweets": 18,
+    "category": "AI",
+    "addedAt": 1769563853354,
+    "addedDate": "2026-01-28 12:30",
+    "media": null
+  },
+  {
+    "id": "2016320881166053765",
+    "author": "Joel Jenkins",
+    "handle": "boganintel",
+    "text": "RT @MichaelWestBiz: Herzog, the man under investigation for incitement to genocide, is doing a tour of Australia. Hopefully he will attract…",
+    "url": "https://x.com/boganintel/status/2016320881166053765",
+    "likes": 0,
+    "retweets": 222,
+    "category": "Scandal",
+    "addedAt": 1769563853354,
+    "addedDate": "2026-01-28 12:30",
+    "media": null
+  },
+  {
+    "id": "2016318094063616414",
+    "author": "Dan Nystedt",
+    "handle": "dnystedt",
+    "text": "Microsoft’s Maia 200 chip and Server supply chain runs across Taiwan, with TSMC manufacturing the 3nm chips, and Global Unichip aiding in the chip design (also for MSFT Cobalt), media report, adding Nuvoton is Microsoft’s server management chip partner (BMC: Baseboard Management Controller) and AI server assembly by Foxconn, Quanta, Wiwynn, Inventec. $MSFT $TSM #GUC #globalunichip #Foxconn #Quanta #Wistron #Inventec #Nuvoton #semiconductors #AIservers",
+    "url": "https://x.com/dnystedt/status/2016318094063616414",
+    "likes": 3,
+    "retweets": 2,
+    "category": "Chips",
+    "addedAt": 1769563853354,
+    "addedDate": "2026-01-28 12:30",
+    "media": null
+  },
+  {
+    "id": "2016318392450613636",
+    "author": "Dan Nystedt",
+    "handle": "dnystedt",
+    "text": "Nvidia’s new N1 and N1X chips will soon be out in consumer laptops from Dell and Lenovo, media report, noting the Arm-based chips with integrated Nvidia RTX-series (Blackwell) GPUs are made for Windows-on-Arm laptops. The chips are co-developed with Taiwan’s MediaTek and built using TSMC’s 3nm process. $NVDA $MSFT $ARM $DELL $LNVGY #mediatek #lenovo https://t.co/4tu29ChCw2",
+    "url": "https://x.com/dnystedt/status/2016318392450613636",
+    "likes": 11,
+    "retweets": 1,
+    "category": "Chips",
+    "addedAt": 1769563853354,
+    "addedDate": "2026-01-28 12:30",
+    "media": null
+  },
+  {
+    "id": "2016318247763882401",
+    "author": "Brian Roemmele",
+    "handle": "BrianRoemmele",
+    "text": "I introduced the wage and salary for AI and Robot compensation yesterday after decades in the payment industry and decades thinking about the challenges we face in the next 5000 days.\n\nSo folks asked for a good explanation, listen in here:\n\nPodcast: https://t.co/4nLl1TmLLg https://t.co/yUtVB2QlF6",
+    "url": "https://x.com/BrianRoemmele/status/2016318247763882401",
+    "likes": 38,
+    "retweets": 2,
+    "category": "AI",
+    "addedAt": 1769563853354,
+    "addedDate": "2026-01-28 12:30",
+    "media": "image",
+    "quotedTweet": {
+      "author": "Brian Roemmele",
+      "handle": "BrianRoemmele",
+      "text": "Introducing Wages for AI Agents in the Zero-Human Company.",
+      "url": "https://x.com/BrianRoemmele/status/2016055580692292083",
+      "media": null
+    }
+  },
+  {
     "id": "2016316813139968437",
     "author": "Zephyr",
     "handle": "zephyr_z9",
@@ -2744,90 +2829,5 @@
       "url": "https://x.com/BrianRoemmele/status/2016178970996465713",
       "media": null
     }
-  },
-  {
-    "id": "2016179457116012795",
-    "author": "The Associated Press",
-    "handle": "AP",
-    "text": "Meta, TikTok and YouTube face landmark trial over youth addiction claims https://t.co/rArTde67DX",
-    "url": "https://x.com/AP/status/2016179457116012795",
-    "likes": 49,
-    "retweets": 19,
-    "category": "Tech",
-    "addedAt": 1769531409328,
-    "addedDate": "2026-01-28 03:30",
-    "media": null
-  },
-  {
-    "id": "2016179398731583846",
-    "author": "Y Combinator",
-    "handle": "ycombinator",
-    "text": ".@eigenpal is AGI for backoffice paperwork: describe a process to automate, give it test data, and the AI agent iterates until the workflow is perfect.\n\nTry on https://t.co/ZQMzDgDaSM.\n\nCongrats on the launch @jedr_blaszyk &amp;amp; @novakmatej1!\n\nhttps://t.co/FerPpn07Di https://t.co/n798hCnzt8",
-    "url": "https://x.com/ycombinator/status/2016179398731583846",
-    "likes": 0,
-    "retweets": 0,
-    "category": "AI",
-    "addedAt": 1769529609916,
-    "addedDate": "2026-01-28 03:00",
-    "media": "video"
-  },
-  {
-    "id": "2016178135939596335",
-    "author": "Campaign",
-    "handle": "Campaignmag",
-    "text": "Pinterest hires chief marketing officer from Amazon https://t.co/fkuU0pyXeK",
-    "url": "https://x.com/Campaignmag/status/2016178135939596335",
-    "likes": 0,
-    "retweets": 0,
-    "category": "Tech",
-    "addedAt": 1769529609916,
-    "addedDate": "2026-01-28 03:00",
-    "media": null
-  },
-  {
-    "id": "2016174265759105411",
-    "author": "Y Combinator",
-    "handle": "ycombinator",
-    "text": "RT @matt_haf: Excited to share that @Concourse_ai has raised a $12M Series A led by @Standard_Cap with participation from @a16z, @CRV, and…",
-    "url": "https://x.com/ycombinator/status/2016174265759105411",
-    "likes": 0,
-    "retweets": 5,
-    "category": "Tech Biz",
-    "addedAt": 1769529609916,
-    "addedDate": "2026-01-28 03:00",
-    "media": null
-  },
-  {
-    "id": "2016173282093826321",
-    "author": "Steve Hou",
-    "handle": "stevehou",
-    "text": "Wow the age of Claude/Clawd.",
-    "url": "https://x.com/stevehou/status/2016173282093826321",
-    "likes": 3,
-    "retweets": 0,
-    "category": "AI",
-    "addedAt": 1769529609916,
-    "addedDate": "2026-01-28 03:00",
-    "media": null,
-    "quotedTweet": {
-      "author": "Peter Steinberger 🦞",
-      "handle": "steipete",
-      "text": "https://t.co/vhmCasIZVM",
-      "url": "https://x.com/steipete/status/2015828441342292139",
-      "media": "image"
-    }
-  },
-  {
-    "id": "2016173491393868235",
-    "author": "9to5Mac",
-    "handle": "9to5mac",
-    "text": "Rumored iOS 27 features as of now. What are you hoping to see most? https://t.co/mUCxBbUVYo",
-    "url": "https://x.com/9to5mac/status/2016173491393868235",
-    "likes": 41,
-    "retweets": 2,
-    "category": "Scuttlebutt",
-    "addedAt": 1769529609916,
-    "addedDate": "2026-01-28 03:00",
-    "media": "image"
   }
 ]
