@@ -1,5 +1,38 @@
 [
   {
+    "id": "2016401855346311546",
+    "author": "Orikron 🇵🇹 骆培思",
+    "handle": "orikron",
+    "text": "I've been using Chinese apps almost exclusively to learn Chinese over the past 1.5 years and I can say they are far far far more tolerable, informative and civilized than anything coming out of Silicon Valley.",
+    "url": "https://x.com/orikron/status/2016401855346311546",
+    "likes": 8,
+    "retweets": 1,
+    "category": "Chips",
+    "addedAt": 1769583611307,
+    "addedDate": "2026-01-28 18:00",
+    "media": null
+  },
+  {
+    "id": "2016398555343102399",
+    "author": "Steve Hou",
+    "handle": "stevehou",
+    "text": "My take on the implications of DeepSeek from exactly one year ago, which feels like an eternity ago. \n\nBack then, ChatGPT was viewed as the undisputed runaway leader in AI, for which Chinese AI was the dark horse threatening to overtake with dark magic algorithmic efficiency. Anthropic was an also-ran, while Google was widely viewed as a laggard.\n\nA year later, the landscape has completely changed and we also have a much clearer and more mature view, certainly than a year ago, on how the AI industry will likely evolve from here out.",
+    "url": "https://x.com/stevehou/status/2016398555343102399",
+    "likes": 5,
+    "retweets": 0,
+    "category": "AI",
+    "addedAt": 1769583611309,
+    "addedDate": "2026-01-28 18:00",
+    "media": null,
+    "quotedTweet": {
+      "author": "Steve Hou",
+      "handle": "stevehou",
+      "text": "After using DeepSeek for the past few weeks, esp since the app came out fairly intensely, I am increasingly sensing that while DeepSeek is impressive and its UI of optionally directly displaying “machine thought process” is novel and curious, it’s going to wear off. I don’t expect its viral success to last. \n\nDeepSeek largely replicates the capabilities of leading US models, which while impressive, also highlighted the limitations of current SOTA AI models in terms of what they can do, esp for average person’s daily lives. They are very useful information gatherers and powerful encyclopedia and excellent but still error-prone coding assistants. They by and large cannot actually “solve” problems by taking a project from start to finish at all. \n\nDeepSeek is ultimately a natural step in the scaling law progression. This is the progress we should expect along the way as compute gets cheaper and algorithms improve. Its discovery just gained prominence and caught public attention bc it came out of China, a perceived (some might say manufactured) geopolitical adversary for the American public conscious. And ofc the fact that everyone’s aped into AI stocks. \n\nAI still has long ways to go imo to become truly useful and beyond party tricks and gimmicks for non-coders and enthusiasts. That means much better algos and much faster compute. I certainly had my doubts: how’s it that a 70B parameters AI model requires so much energy to run but the human brain with similar number of neurons, albeit not the same thing despite analogy, uses only a tiny fraction of the energy? \n\nWhat DeepSeek has managed to do is to collectively demonstrate to the US and global public that the lofty Sci-Fi end goal that used to be casually dismissed even just a year ago may in fact be reachable through not just mind boggling hardware buildout but algorithmic efficiency gains.  The journey or race towards intelligence, wise or not, has truly just begun.",
+      "url": "https://x.com/stevehou/status/1884189182475514308",
+      "media": null
+    }
+  },
+  {
     "id": "2016398190271168934",
     "author": "Dan Nystedt",
     "handle": "dnystedt",
@@ -2813,32 +2846,6 @@
     "url": "https://x.com/BrianRoemmele/status/2016224466200850917",
     "likes": 0,
     "retweets": 15,
-    "category": "AI",
-    "addedAt": 1769540409554,
-    "addedDate": "2026-01-28 06:00",
-    "media": null
-  },
-  {
-    "id": "2016224407090512165",
-    "author": "Y Combinator",
-    "handle": "ycombinator",
-    "text": "RT @brickanta: Brickanta just raised an $8M Seed led by Northzone, backed by AI leaders (Lovable, OpenAI, Google) plus 20VC, Y Combinator,…",
-    "url": "https://x.com/ycombinator/status/2016224407090512165",
-    "likes": 0,
-    "retweets": 3,
-    "category": "Tech Biz",
-    "addedAt": 1769540409554,
-    "addedDate": "2026-01-28 06:00",
-    "media": null
-  },
-  {
-    "id": "2016223865811468418",
-    "author": "Matt Slotnick",
-    "handle": "matt_slotnick",
-    "text": "you can still be very long AI and accept this reality. you have to play the game on the field. and for most businesses, core systems are a game of reliability, trust, and risk deflection",
-    "url": "https://x.com/matt_slotnick/status/2016223865811468418",
-    "likes": 0,
-    "retweets": 0,
     "category": "AI",
     "addedAt": 1769540409554,
     "addedDate": "2026-01-28 06:00",
