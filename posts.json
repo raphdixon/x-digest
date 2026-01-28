@@ -1,5 +1,64 @@
 [
   {
+    "id": "2016563486982324403",
+    "author": "Andrej Karpathy",
+    "handle": "karpathy",
+    "text": "RT @alexocheema: Running Kimi K2.5 on my desk.\n\nRuns at 24 tok/sec with 2 x 512GB M3 Ultra Mac Studios connected with Thunderbolt 5 (RDMA)…",
+    "url": "https://x.com/karpathy/status/2016563486982324403",
+    "likes": 0,
+    "retweets": 304,
+    "category": "Scandal",
+    "addedAt": 1769621408750,
+    "addedDate": "2026-01-29 04:30",
+    "media": null
+  },
+  {
+    "id": "2016562714252886038",
+    "author": "Got CTE from playing Peek-A-Boo",
+    "handle": "doulbedoink",
+    "text": "Not THE funniest metal band you could accuse of cursing your team but its up there",
+    "url": "https://x.com/doulbedoink/status/2016562714252886038",
+    "likes": 13,
+    "retweets": 0,
+    "category": "Tech",
+    "addedAt": 1769621408750,
+    "addedDate": "2026-01-29 04:30",
+    "media": null,
+    "quotedTweet": {
+      "author": "CONSEQUENCE",
+      "handle": "consequence",
+      "text": "An employee at the Kia Center, home of the Orlando Magic, has blamed Ghost for cursing the team, which has gone winless since the Swedish band played the arena earlier this month. https://t.co/G3rBaMUObv",
+      "url": "https://x.com/consequence/status/2016560925700915607",
+      "media": null
+    }
+  },
+  {
+    "id": "2016563262888837395",
+    "author": "Got CTE from playing Peek-A-Boo",
+    "handle": "doulbedoink",
+    "text": "Yea we think this satanic metal band placed a witches hex on us, yes the band that goes “Can a skeleton still die of a broken heaaaaart” over synth riffs",
+    "url": "https://x.com/doulbedoink/status/2016563262888837395",
+    "likes": 6,
+    "retweets": 1,
+    "category": "Tech",
+    "addedAt": 1769621408750,
+    "addedDate": "2026-01-29 04:30",
+    "media": null
+  },
+  {
+    "id": "2016557817864573256",
+    "author": "SV_Techie",
+    "handle": "sv_techie",
+    "text": "$ASML -3% for posting rev beat and €12B share purchase. Looks like semis are peaking?🤷‍♂️",
+    "url": "https://x.com/sv_techie/status/2016557817864573256",
+    "likes": 0,
+    "retweets": 0,
+    "category": "Chips",
+    "addedAt": 1769621408750,
+    "addedDate": "2026-01-29 04:30",
+    "media": null
+  },
+  {
     "id": "2016556886104166819",
     "author": "Y Combinator",
     "handle": "ycombinator",
@@ -2748,58 +2807,6 @@
     "category": "AI",
     "addedAt": 1769565612688,
     "addedDate": "2026-01-28 13:00",
-    "media": null
-  },
-  {
-    "id": "2010328589422530711",
-    "author": "Verda (formerly DataCrunch)",
-    "handle": "verdacloud",
-    "text": "NVIDIA B200 clusters. Self-service &amp;amp; pay-as-you-go ⚡️",
-    "url": "https://x.com/verdacloud/status/2010328589422530711",
-    "likes": 22,
-    "retweets": 2,
-    "category": "Chips",
-    "addedAt": 1769563853354,
-    "addedDate": "2026-01-28 12:30",
-    "media": null
-  },
-  {
-    "id": "2016321125257773424",
-    "author": "Dan Nystedt",
-    "handle": "dnystedt",
-    "text": "RT @dnystedt: Orders for AI servers have outstripped supply at Foxconn, the world’s biggest AI server maker, media report, adding it’s work…",
-    "url": "https://x.com/dnystedt/status/2016321125257773424",
-    "likes": 0,
-    "retweets": 18,
-    "category": "AI",
-    "addedAt": 1769563853354,
-    "addedDate": "2026-01-28 12:30",
-    "media": null
-  },
-  {
-    "id": "2016320881166053765",
-    "author": "Joel Jenkins",
-    "handle": "boganintel",
-    "text": "RT @MichaelWestBiz: Herzog, the man under investigation for incitement to genocide, is doing a tour of Australia. Hopefully he will attract…",
-    "url": "https://x.com/boganintel/status/2016320881166053765",
-    "likes": 0,
-    "retweets": 222,
-    "category": "Scandal",
-    "addedAt": 1769563853354,
-    "addedDate": "2026-01-28 12:30",
-    "media": null
-  },
-  {
-    "id": "2016318094063616414",
-    "author": "Dan Nystedt",
-    "handle": "dnystedt",
-    "text": "Microsoft’s Maia 200 chip and Server supply chain runs across Taiwan, with TSMC manufacturing the 3nm chips, and Global Unichip aiding in the chip design (also for MSFT Cobalt), media report, adding Nuvoton is Microsoft’s server management chip partner (BMC: Baseboard Management Controller) and AI server assembly by Foxconn, Quanta, Wiwynn, Inventec. $MSFT $TSM #GUC #globalunichip #Foxconn #Quanta #Wistron #Inventec #Nuvoton #semiconductors #AIservers",
-    "url": "https://x.com/dnystedt/status/2016318094063616414",
-    "likes": 3,
-    "retweets": 2,
-    "category": "Chips",
-    "addedAt": 1769563853354,
-    "addedDate": "2026-01-28 12:30",
     "media": null
   }
 ]
