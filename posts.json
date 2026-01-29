@@ -1,5 +1,84 @@
 [
   {
+    "id": "2016579968302456887",
+    "author": "Joe Weisenthal",
+    "handle": "TheStalwart",
+    "text": "1/ This is actually a very good question, and answering this helped me learn something important about model training. The problem, one will encounter, if they do this enough, is that AI models will end up being very bi-model. Almost everything will score either hi or low...",
+    "url": "https://x.com/TheStalwart/status/2016579968302456887",
+    "likes": 211,
+    "retweets": 4,
+    "category": "AI",
+    "addedAt": 1769686209922,
+    "addedDate": "2026-01-29 22:30",
+    "media": null,
+    "quotedTweet": {
+      "author": "Graham's ex wife",
+      "handle": "Scuzzgolem",
+      "text": "@TheStalwart What is the point of your &quot;app&quot; if I can just type this into chat GPT? https://t.co/sPdBaSDg5f",
+      "url": "https://x.com/Scuzzgolem/status/2016568728813502700",
+      "media": "image"
+    }
+  },
+  {
+    "id": "1998734621882695718",
+    "author": "Glenn",
+    "handle": "GlennLuk",
+    "text": "Chinese regulators are polling key GPU users Bytedance, Alibaba, and Tencent for H200 demand.\n\nPresumably its response to the relaxed export controls will be based on this demand feedback.\n\nObjective will be tactical and doesn’t change strategic goal of domestic AI chip self-sufficiency.\n\nhttps://t.co/fXDIuFXXrw",
+    "url": "https://x.com/GlennLuk/status/1998734621882695718",
+    "likes": 88,
+    "retweets": 11,
+    "category": "Chips",
+    "addedAt": 1769686209922,
+    "addedDate": "2026-01-29 22:30",
+    "media": "image"
+  },
+  {
+    "id": "1998761145310576847",
+    "author": "Glenn",
+    "handle": "GlennLuk",
+    "text": "This is a tactical trade with benefits on both sides.\n\nThe Chinese players get chips that extend their asset bases with the least friction. nVidia gets $10s of billions that it can re-invest in R&amp;D or one of its various JVs to strengthen its ecosystem. Strategically, nVidia’s strategy is to outrun everyone. It’s not just worried about China, but alternatives like Google TPUs as well, as @GavinSBaker described in this recent podcast. Maintaining a healthy competitive environment with nVidia is the best outcome for America’s continued tech ecosystem. Stakes are not winning China (which will highly likely achieve its strategic aims) but winning RoW.\n\nEither way, the American ecosystem gets a capital boost which should drive continued innovation, in a race where the key to winning is out-accelerating the competition, not playing rearguard containment action.",
+    "url": "https://x.com/GlennLuk/status/1998761145310576847",
+    "likes": 14,
+    "retweets": 2,
+    "category": "Chips",
+    "addedAt": 1769686209922,
+    "addedDate": "2026-01-29 22:30",
+    "media": null,
+    "quotedTweet": {
+      "author": "Research &amp; Invest",
+      "handle": "R_and_Invest",
+      "text": "I asked @notebooklm to summarize @GavinSBaker podcast. Dang, its NOT bad at all. And it didnt even hallucinate (as much as old models). If you have not watched it, here's the link: https://t.co/KCDXbJ5HdV https://t.co/FuJJpQOexj",
+      "url": "https://x.com/R_and_Invest/status/1998490188868366670",
+      "media": "image"
+    }
+  },
+  {
+    "id": "2016832122594742730",
+    "author": "Jathan Sadowski",
+    "handle": "jathansadowski",
+    "text": "RT @AyeshaASiddiqi: one sentence history of silicon valley",
+    "url": "https://x.com/jathansadowski/status/2016832122594742730",
+    "likes": 0,
+    "retweets": 1009,
+    "category": "Chips",
+    "addedAt": 1769686209922,
+    "addedDate": "2026-01-29 22:30",
+    "media": null
+  },
+  {
+    "id": "1998138515079770358",
+    "author": "Cato Networks",
+    "handle": "CatoNetworks",
+    "text": "Compliance doesn’t have to be a reactive burden. With unified visibility, built-in Zero Trust, and automated controls, Cato Autonomous Policy uses AI to analyze and optimize network security policies and keep enforcement clean and consistent. Download this e-book to learn more.",
+    "url": "https://x.com/CatoNetworks/status/1998138515079770358",
+    "likes": 14,
+    "retweets": 2,
+    "category": "Scandal",
+    "addedAt": 1769686209922,
+    "addedDate": "2026-01-29 22:30",
+    "media": null
+  },
+  {
     "id": "2016825623843639420",
     "author": "Jukan",
     "handle": "jukan05",
@@ -2687,84 +2766,5 @@
     "addedAt": 1769635808275,
     "addedDate": "2026-01-29 08:30",
     "media": null
-  },
-  {
-    "id": "2016617857811959890",
-    "author": "Joe Weisenthal",
-    "handle": "TheStalwart",
-    "text": "$META -2%",
-    "url": "https://x.com/TheStalwart/status/2016617857811959890",
-    "likes": 8,
-    "retweets": 0,
-    "category": "Tech",
-    "addedAt": 1769635808275,
-    "addedDate": "2026-01-29 08:30",
-    "media": null
-  },
-  {
-    "id": "2016617629444952272",
-    "author": "hope hopes hoping",
-    "handle": "hopes_revenge",
-    "text": "i had an ex gf  who used to smoke weed when she was  angry or  upset . i always  felt like that was kind of  weird  or  unusual .  anyway,  she is a  partner at a top VC firm now .",
-    "url": "https://x.com/hopes_revenge/status/2016617629444952272",
-    "likes": 21,
-    "retweets": 1,
-    "category": "Tech Biz",
-    "addedAt": 1769635808275,
-    "addedDate": "2026-01-29 08:30",
-    "media": null
-  },
-  {
-    "id": "2016617513832817002",
-    "author": "Nathan Labenz",
-    "handle": "labenz",
-    "text": "Proud to have supported the @AIWI_Official as a donor &amp;amp; Recommender\n\nFounder Karl Koch recently met with OpenAI leadership to discuss improvements to their whistleblower policy, and OpenAI addressed 8 of 13 recommendations.\n\nSuch work is never done, but this is great progress!",
-    "url": "https://x.com/labenz/status/2016617513832817002",
-    "likes": 0,
-    "retweets": 0,
-    "category": "Scandal",
-    "addedAt": 1769635808275,
-    "addedDate": "2026-01-29 08:30",
-    "media": null,
-    "quotedTweet": {
-      "author": "AIWI - The AI Whistleblower Initiative",
-      "handle": "AIWI_Official",
-      "text": "OpenAI released a substantially expanded Whistleblowing Policy – from 3 to 13 pages. \n\nMost comprehensive among frontier AI companies.  AIWI finds significant progress: 8 of 13 AIWI recommendations addressed, including 3 of 5 critical items. \n\n⚠️ Critical for AI employees: Internal WB policies ≠ legally binding contracts.  Get independent legal counsel before using internal channels. \n\nFull 2024 evaluation + preliminary 2026 assessment: https://t.co/nK939L7zDR\n\n📰 @theinformation  reported on this development and invited AIWI to share our expert perspective on the policy update: [https://t.co/5whfXrXr71]\n\n AIWI can connect you with legal support. https://t.co/p4cO5jFFs9\n\nIn-depth 2026 policy review coming soon. Subscribe to our Substack: https://t.co/3Zrgco9FuS\n\n#AIWI #OpenAI #AInews #AIwhistleblowing",
-      "url": "https://x.com/AIWI_Official/status/2016590995484209330",
-      "media": "image"
-    }
-  },
-  {
-    "id": "2016611419228414277",
-    "author": "tphuang",
-    "handle": "tphuang",
-    "text": "China's December ranking for ADAS chip installation &amp; domain controllers.\n\nNvidia remains on top w/ 45.5% share followed by Tesla 17.2% (just for Tesla vehicles), HW 13.5% &amp; Horizon 9.7%.\n\nNIO (2.7%) &amp; XPeng (1.3%) also showed up.\nFor domain controller, BYD leads w/ 28.7% share &amp; followed by Desay @ 22.4%, HW 14.2% &amp; Tesla 10.4%.\n\nYou can see that NIO &amp; Leapmotor also develop their own domain controllers. DJI Auto, Freetech &amp; Luxshare round out the top 10.\n\nAs a whole, Nvidia share is reducing, but many automakers (including BYD) still use it for a lot of their models (despite Horizon J6M becoming available). Now, as more Chinese automakers develop their own ADAS chip, I can see Nvidia losing significant shares in 2026.",
-    "url": "https://x.com/tphuang/status/2016611419228414277",
-    "likes": 8,
-    "retweets": 0,
-    "category": "Chips",
-    "addedAt": 1769634008901,
-    "addedDate": "2026-01-29 08:00",
-    "media": "image"
-  },
-  {
-    "id": "2016614122574528849",
-    "author": "Berwyn Choobs",
-    "handle": "sabatonfan69",
-    "text": "Y’all weren’t there sneaking away from the family gathering to turn on toonami and catch the end of the land of waves arc \n\nKids these days just google GOJO penis and BALLS while watching on their damn IPAD",
-    "url": "https://x.com/sabatonfan69/status/2016614122574528849",
-    "likes": 22,
-    "retweets": 2,
-    "category": "Tech",
-    "addedAt": 1769634008901,
-    "addedDate": "2026-01-29 08:00",
-    "media": null,
-    "quotedTweet": {
-      "author": "gifs &amp; images naruto",
-      "handle": "narutoimges",
-      "text": "https://t.co/5tmA4ty6Ns",
-      "url": "https://x.com/narutoimges/status/2016329607444607262",
-      "media": "image"
-    }
   }
 ]
