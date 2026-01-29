@@ -1,5 +1,31 @@
 [
   {
+    "id": "2016825623843639420",
+    "author": "Jukan",
+    "handle": "jukan05",
+    "text": "BofA’s estimated lifespan by AI GPU (model) https://t.co/UNblsJEHjh",
+    "url": "https://x.com/jukan05/status/2016825623843639420",
+    "likes": 14,
+    "retweets": 3,
+    "category": "AI",
+    "addedAt": 1769684411143,
+    "addedDate": "2026-01-29 22:00",
+    "media": "image"
+  },
+  {
+    "id": "2016824634981642396",
+    "author": "SMA 🏴‍☠️",
+    "handle": "generic_void",
+    "text": "So many stupid takes. It must be hell trying to train an LLM on tweets that doesn’t turn out retarded.",
+    "url": "https://x.com/generic_void/status/2016824634981642396",
+    "likes": 1,
+    "retweets": 0,
+    "category": "AI",
+    "addedAt": 1769684411144,
+    "addedDate": "2026-01-29 22:00",
+    "media": null
+  },
+  {
     "id": "2016817374389829835",
     "author": "The Wall Street Journal",
     "handle": "WSJ",
@@ -2740,31 +2766,5 @@
       "url": "https://x.com/narutoimges/status/2016329607444607262",
       "media": "image"
     }
-  },
-  {
-    "id": "2016610996815589411",
-    "author": "The Nation",
-    "handle": "thenation",
-    "text": "For the past year, the main institutionalist strategy has been to lean into lawsuits in the hope the law would save us. But, writes @ElieNYC, Minneapolis proves what history has always shown: the law is a lagging indicator. The people always lead the way.\nhttps://t.co/tHLqJxPwOv",
-    "url": "https://x.com/thenation/status/2016610996815589411",
-    "likes": 3,
-    "retweets": 0,
-    "category": "Scandal",
-    "addedAt": 1769634008901,
-    "addedDate": "2026-01-29 08:00",
-    "media": null
-  },
-  {
-    "id": "2008346311008084236",
-    "author": "CMC Markets ANZ",
-    "handle": "CMCMarketsAusNZ",
-    "text": "Turn uncertainty into strength. Silver isn’t just a metal, it’s a strategy for navigating market volatility.",
-    "url": "https://x.com/CMCMarketsAusNZ/status/2008346311008084236",
-    "likes": 22,
-    "retweets": 1,
-    "category": "Tech",
-    "addedAt": 1769632207516,
-    "addedDate": "2026-01-29 07:30",
-    "media": null
   }
 ]
