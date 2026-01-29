@@ -1,5 +1,31 @@
 [
   {
+    "id": "2016757403832779242",
+    "author": "Beff (e/acc)",
+    "handle": "beffjezos",
+    "text": "Hedging bets across several model providers.\n\nI'm sure X AI and OpenAI will have models that give Opus4.5 a run for their money soon",
+    "url": "https://x.com/beffjezos/status/2016757403832779242",
+    "likes": 4,
+    "retweets": 0,
+    "category": "AI",
+    "addedAt": 1769668209802,
+    "addedDate": "2026-01-29 17:30",
+    "media": null
+  },
+  {
+    "id": "2016754969358045229",
+    "author": "BURKOV",
+    "handle": "burkov",
+    "text": "With my experience and everything I know, I could come to any mostly white-collar company, talk to people about what their job tasks are, and architect a way to replace some of those tasks with AI, saving between 20% and 35% of costs to the employer or increasing productivity by the same amount.\n\nI could do that, but knowing how simple it is today, I feel zero motivation to do that.",
+    "url": "https://x.com/burkov/status/2016754969358045229",
+    "likes": 2,
+    "retweets": 0,
+    "category": "AI",
+    "addedAt": 1769668209803,
+    "addedDate": "2026-01-29 17:30",
+    "media": null
+  },
+  {
     "id": "2016751880219873442",
     "author": "Neal Khosla",
     "handle": "nealkhosla",
@@ -2754,31 +2780,5 @@
       "url": "https://x.com/BrianRoemmele/status/2016580765094728068",
       "media": "image"
     }
-  },
-  {
-    "id": "2016593049489490103",
-    "author": "@jason",
-    "handle": "Jason",
-    "text": "RT @theallinpod: Startup Life in Davos: Four Dudes to a Room\n\nLast week, @Jason went around Davos &quot;Man on the Street&quot; style, interviewing a…",
-    "url": "https://x.com/Jason/status/2016593049489490103",
-    "likes": 0,
-    "retweets": 10,
-    "category": "Tech Biz",
-    "addedAt": 1769628610502,
-    "addedDate": "2026-01-29 06:30",
-    "media": null
-  },
-  {
-    "id": "2016592888147431687",
-    "author": "Yann LeCun",
-    "handle": "ylecun",
-    "text": "RT @yaroslavvb: In 2011 I joined Google OCR team and saw a collection of image recognition pipelines and components barely working together…",
-    "url": "https://x.com/ylecun/status/2016592888147431687",
-    "likes": 0,
-    "retweets": 10,
-    "category": "Tech",
-    "addedAt": 1769628610502,
-    "addedDate": "2026-01-29 06:30",
-    "media": null
   }
 ]
