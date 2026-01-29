@@ -1,5 +1,31 @@
 [
   {
+    "id": "2016817374389829835",
+    "author": "The Wall Street Journal",
+    "handle": "WSJ",
+    "text": "Exclusive: Mexican President Claudia Sheinbaum and FBI Director Kash Patel have told differing accounts about the role of U.S. agents in the arrest of former Olympian Ryan Wedding https://t.co/dJfTb87CLX",
+    "url": "https://x.com/WSJ/status/2016817374389829835",
+    "likes": 7,
+    "retweets": 2,
+    "category": "Scuttlebutt",
+    "addedAt": 1769682608567,
+    "addedDate": "2026-01-29 21:30",
+    "media": null
+  },
+  {
+    "id": "2016815469563388149",
+    "author": "Brooks Otterlake",
+    "handle": "i_zzzzzz",
+    "text": "RT @willmenaker: He's referencing Idris Elba's portrayal of an American president in House of Dynamite who references an interesting podcas…",
+    "url": "https://x.com/i_zzzzzz/status/2016815469563388149",
+    "likes": 0,
+    "retweets": 27,
+    "category": "AI",
+    "addedAt": 1769682608567,
+    "addedDate": "2026-01-29 21:30",
+    "media": null
+  },
+  {
     "id": "2016809249410863196",
     "author": "dan nolan",
     "handle": "dannolan",
@@ -2737,39 +2763,6 @@
     "likes": 22,
     "retweets": 1,
     "category": "Tech",
-    "addedAt": 1769632207516,
-    "addedDate": "2026-01-29 07:30",
-    "media": null
-  },
-  {
-    "id": "2016606627688862020",
-    "author": "@jason",
-    "handle": "Jason",
-    "text": "Middle management, for sure.\n\n... and, from my firsthand experience, a manager using AI tools is 2-5x more effective today.\n\nNext year, they will be 5-10x more effective.\n\nAs the most basic example, middle managers used to create meetings, summarize them and then distribute action items. That's all done in Zoom, Notion or Slack Huddles BY DEFAULT.\n\nManagers would spend hours a day catching up on threads in Microsoft Teams and GMAIL -- all that's done by AI now.",
-    "url": "https://x.com/Jason/status/2016606627688862020",
-    "likes": 35,
-    "retweets": 3,
-    "category": "AI",
-    "addedAt": 1769632207516,
-    "addedDate": "2026-01-29 07:30",
-    "media": null,
-    "quotedTweet": {
-      "author": "Jim Cramer",
-      "handle": "jimcramer",
-      "text": "What were those people at Amazon doing",
-      "url": "https://x.com/jimcramer/status/2016516343575511081",
-      "media": null
-    }
-  },
-  {
-    "id": "2016608748429517154",
-    "author": "tphuang",
-    "handle": "tphuang",
-    "text": "Of the free version web based AI chats that I have tried recently, Kimi 2.5 is now giving me the best results. Better than the free Gemini version. Better than DeepSeek V3.2. Better than Qwen.\n\nI still default to Claude on the paid version of cursor that i use, but results aren't better than the open source ones that I've tried.\n\nI'm not willing to pay for GPT 5.2 or Gemini 3 Pro version, but the free open source APIs are already really good and better than the free GPT/Gemini flash version.\n\nI continue to not see the business case for OpenAI or Anthropic.",
-    "url": "https://x.com/tphuang/status/2016608748429517154",
-    "likes": 5,
-    "retweets": 1,
-    "category": "AI",
     "addedAt": 1769632207516,
     "addedDate": "2026-01-29 07:30",
     "media": null
