@@ -1,5 +1,31 @@
 [
   {
+    "id": "2016742111937249746",
+    "author": "Financial Times",
+    "handle": "FT",
+    "text": "Bill Gates addresses his past association with the disgraced financier and sex offender Jeffrey Epstein. In this week's episode of The Rachman Review, the US philantropist discusses failing aid budgets and why philantropy can't replace government funding. https://t.co/Gy8TKTIVXB https://t.co/2g83FEbWGC",
+    "url": "https://x.com/FT/status/2016742111937249746",
+    "likes": 7,
+    "retweets": 3,
+    "category": "Tech Biz",
+    "addedAt": 1769664619369,
+    "addedDate": "2026-01-29 16:30",
+    "media": "image"
+  },
+  {
+    "id": "2016743149193089277",
+    "author": "Matthew Goldin",
+    "handle": "matthewgoldin",
+    "text": "Mental health advocates believe they’re humanitarians for peddling fictions like schizophrenia and bipolar disorder—labels for clusters of behaviors others find obnoxious—which, once applied, function as grounds for bypassing informed consent and depriving individuals of liberty.",
+    "url": "https://x.com/matthewgoldin/status/2016743149193089277",
+    "likes": 6,
+    "retweets": 0,
+    "category": "Tech Biz",
+    "addedAt": 1769664619370,
+    "addedDate": "2026-01-29 16:30",
+    "media": null
+  },
+  {
     "id": "2016737534316073004",
     "author": "Jarred Sumner",
     "handle": "jarredsumner",
@@ -2733,31 +2759,5 @@
     "addedAt": 1769628610502,
     "addedDate": "2026-01-29 06:30",
     "media": null
-  },
-  {
-    "id": "2016589591294464082",
-    "author": "roon",
-    "handle": "tszzl",
-    "text": "the option value of telling people ai is happening is in the theta decay phase",
-    "url": "https://x.com/tszzl/status/2016589591294464082",
-    "likes": 29,
-    "retweets": 1,
-    "category": "AI",
-    "addedAt": 1769628610502,
-    "addedDate": "2026-01-29 06:30",
-    "media": null
-  },
-  {
-    "id": "2016590419635949672",
-    "author": "Artificial Analysis",
-    "handle": "ArtificialAnlys",
-    "text": "Alibaba has released Qwen3-Max-Thinking with a significant intelligence upgrade - but the model places behind peers on the Artificial Analysis Intelligence Index, and is not open weights\n\nQwen3-Max-Thinking scores 40 on the Artificial Analysis Intelligence Index, an 8-point jump from the Preview version (32). It places in line with MiniMax-M2.1 (40) but behind DeepSeek V3.2 (42), GLM-4.7 (42), and Kimi K2.5 (47). Qwen3-Max-Thinking is Alibaba's flagship proprietary reasoning model and performs significantly better than Qwen3 235B 2507 (Thinking, 29)\n\nKey takeaways from our independent benchmarking:\n➤ 🧠 Intelligence gains driven by general reasoning and instruction following: The 8-point jump from Preview is largely driven by improvements on general reasoning evaluations. HLE (Humanity's Last Exam) score doubles to 26% from the Preview version, and is ahead of DeepSeek V3.2 (22%), GLM-4.7 (25%), and MiniMax-M2.1 (22%). IFBench score jumps from 54% to 71%, leading peers from Chinese AI labs including Kimi K2.5 (70%) and GLM-4.7 (68%), representing a notable improvement in the model's ability to follow complex instructions.\n➤ 🛠️ Improved agentic performance: Qwen3-Max-Thinking achieves an ELO of 1170 on GDPval-AA, up from Qwen3-Max-Thinking (Preview)’s ELO of 958. This places it ahead of MiniMax-M2.1 (1074) but behind GLM-4.7 (1192), DeepSeek V3.2 (1186), and Kimi K2.5 (1316). GDPval-AA is our leading metric for general agentic performance, measuring models on realistic knowledge work tasks such as preparing presentations and analysis. Models are given shell access and web browsing capabilities in an agentic loop via our open source reference agentic harness called Stirrup\n➤ 🪙 Token usage is in line with peers: Qwen3-Max-Thinking generated 86M output tokens (79M reasoning) to complete the Intelligence Index, up from the Preview version’s 30M output tokens. This places it in line with Kimi K2.5 (89M) but well below GLM-4.7 (167M)\n➤ 📉 AA-Omniscience trails peer models: Qwen3-Max-Thinking scores -34 on the AA-Omniscience Index, our knowledge evaluation measuring both accuracy and hallucination rate. This trails Kimi K2.5 (-11), DeepSeek V3.2 (-23), and MiniMax-M2.1 (-30)\n\nKey model information:\n➤ 🔒 Proprietary: Like the Preview version, Qwen3-Max-Thinking is proprietary, since Alibaba has not released the weights\n➤ ⚙️ Context window: The model supports a 256k-token context window\n➤ 📷 No multimodality: It is text-only, with no multimodal inputs or outputs\n➤ 💲Pricing: The model is priced at $1.2/$6 per 1M input/output tokens for up to 32K input tokens, scaling to $2.4/$12 for 32K–128K and $3/$15 for 128K–256K\n➤ 🌐 Availability: Qwen3-Max-Thinking is currently available in Qwen Chat and via the first-party API on Alibaba Cloud",
-    "url": "https://x.com/ArtificialAnlys/status/2016590419635949672",
-    "likes": 13,
-    "retweets": 2,
-    "category": "Chips",
-    "addedAt": 1769628610502,
-    "addedDate": "2026-01-29 06:30",
-    "media": "image"
   }
 ]
