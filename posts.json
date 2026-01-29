@@ -1,5 +1,64 @@
 [
   {
+    "id": "2016692522899165401",
+    "author": "nxthompson",
+    "handle": "nxthompson",
+    "text": "RT @YAppelbaum: &quot;Our greatest national export will be the intelligence of our nation.&quot;\n\nJust an astonishing, devastating tabulation of the…",
+    "url": "https://x.com/nxthompson/status/2016692522899165401",
+    "likes": 0,
+    "retweets": 12,
+    "category": "Chips",
+    "addedAt": 1769652009727,
+    "addedDate": "2026-01-29 13:00",
+    "media": null
+  },
+  {
+    "id": "2016688915814490431",
+    "author": "Berwyn Choobs",
+    "handle": "sabatonfan69",
+    "text": "Stoically putting on blackface before entering Applebees because my mom and step dad believed the tale I wove about being two months into a chimney sweep internship",
+    "url": "https://x.com/sabatonfan69/status/2016688915814490431",
+    "likes": 17,
+    "retweets": 1,
+    "category": "Tech",
+    "addedAt": 1769652009727,
+    "addedDate": "2026-01-29 13:00",
+    "media": null
+  },
+  {
+    "id": "2016687902973972656",
+    "author": "Steve Hou",
+    "handle": "stevehou",
+    "text": "China is doing to AI what it did to every other product in the world: almost as good as the real thing at a small fraction of the cost.",
+    "url": "https://x.com/stevehou/status/2016687902973972656",
+    "likes": 7,
+    "retweets": 0,
+    "category": "AI",
+    "addedAt": 1769652009727,
+    "addedDate": "2026-01-29 13:00",
+    "media": null,
+    "quotedTweet": {
+      "author": "Deirdre Bosa",
+      "handle": "dee_bosa",
+      "text": "&quot;When Deepseek models came out, and Kimi models and others, those are the predominant models in the world....  so I think there absolutely is an appetite for the cheaper, you know, sort of Prius level model versus, versus the Ferrari out there&quot; -@NaveenGRao https://t.co/96D6X3hD9I",
+      "url": "https://x.com/dee_bosa/status/2016682329456930991",
+      "media": "video"
+    }
+  },
+  {
+    "id": "2016685260134568038",
+    "author": "Digiday",
+    "handle": "Digiday",
+    "text": "Brands and marketers are tapping new top-level domains to build recognition in the era of AI. Partner insights from https://t.co/MSjSQPGf0Z. https://t.co/zTYsr7X5AO",
+    "url": "https://x.com/Digiday/status/2016685260134568038",
+    "likes": 0,
+    "retweets": 0,
+    "category": "AI",
+    "addedAt": 1769652009727,
+    "addedDate": "2026-01-29 13:00",
+    "media": null
+  },
+  {
     "id": "2016682554695569719",
     "author": "thaddeus e. grugq",
     "handle": "thegrugq",
@@ -2685,58 +2744,6 @@
     "category": "AI",
     "addedAt": 1769619609529,
     "addedDate": "2026-01-29 04:00",
-    "media": null
-  },
-  {
-    "id": "2016551948221108369",
-    "author": "9to5Mac",
-    "handle": "9to5mac",
-    "text": "Deals: AirPods Max $119 off, AirPods Pro 3, Apple Watch SE 3 $173, Trail Loop 50% off, more https://t.co/l4QWwfK3Vy by @justinkahnmusic",
-    "url": "https://x.com/9to5mac/status/2016551948221108369",
-    "likes": 8,
-    "retweets": 2,
-    "category": "Tech",
-    "addedAt": 1769619609529,
-    "addedDate": "2026-01-29 04:00",
-    "media": null
-  },
-  {
-    "id": "2016550618295390224",
-    "author": "Financial Times",
-    "handle": "FT",
-    "text": "The precious metal feeding frenzy https://t.co/FdmFN6RbiO",
-    "url": "https://x.com/FT/status/2016550618295390224",
-    "likes": 12,
-    "retweets": 5,
-    "category": "Tech",
-    "addedAt": 1769619609529,
-    "addedDate": "2026-01-29 04:00",
-    "media": null
-  },
-  {
-    "id": "2016546057073668109",
-    "author": "unusual_whales",
-    "handle": "unusual_whales",
-    "text": "Amazon, $AMZN, is laying off 16,000 employees, per CNN",
-    "url": "https://x.com/unusual_whales/status/2016546057073668109",
-    "likes": 95,
-    "retweets": 21,
-    "category": "Tech",
-    "addedAt": 1769617808634,
-    "addedDate": "2026-01-29 03:30",
-    "media": null
-  },
-  {
-    "id": "2016544189761130932",
-    "author": "Hugging Face",
-    "handle": "huggingface",
-    "text": "RT @halcyonrayes: 🤖 sam-3d-objects from @AIatMeta and trellis.2-4b from @Microsoft now exist on 3d-arena by @huggingface, one of the best b…",
-    "url": "https://x.com/huggingface/status/2016544189761130932",
-    "likes": 0,
-    "retweets": 3,
-    "category": "Tech",
-    "addedAt": 1769617808634,
-    "addedDate": "2026-01-29 03:30",
     "media": null
   }
 ]
