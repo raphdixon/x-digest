@@ -1,5 +1,44 @@
 [
   {
+    "id": "2016786854096535885",
+    "author": "Huawei",
+    "handle": "Huawei",
+    "text": "As AI workloads get heavier, waiting isn't an option any longer. The Huawei SuperPoD is built for massive AI training and inference, delivering ultra-high performance, low latency, and scalable power. Because innovation doesn't wait for tomorrow.",
+    "url": "https://x.com/Huawei/status/2016786854096535885",
+    "likes": 4,
+    "retweets": 0,
+    "category": "AI",
+    "addedAt": 1769675409142,
+    "addedDate": "2026-01-29 19:30",
+    "media": null
+  },
+  {
+    "id": "2016789541483368732",
+    "author": "Hugging Face",
+    "handle": "huggingface",
+    "text": "RT @novita_labs: 🤗 Kimi-K2.5 is live on @huggingface, supported by Novita\n\nMoonshot AI's flagship agentic model for vision, text, thinking,…",
+    "url": "https://x.com/huggingface/status/2016789541483368732",
+    "likes": 0,
+    "retweets": 3,
+    "category": "AI",
+    "addedAt": 1769675409143,
+    "addedDate": "2026-01-29 19:30",
+    "media": null
+  },
+  {
+    "id": "2016787076629549095",
+    "author": "Rohan Paul",
+    "handle": "rohanpaul_ai",
+    "text": "RT @rohanpaul_ai: The AI boom is sending capital expenditure soaring, back to levels not seen since the late nineties. \n\nSpending on data c…",
+    "url": "https://x.com/rohanpaul_ai/status/2016787076629549095",
+    "likes": 0,
+    "retweets": 6,
+    "category": "AI",
+    "addedAt": 1769675409143,
+    "addedDate": "2026-01-29 19:30",
+    "media": null
+  },
+  {
     "id": "2016773796938527149",
     "author": "Financial Times",
     "handle": "FT",
@@ -2727,44 +2766,5 @@
     "addedAt": 1769630408506,
     "addedDate": "2026-01-29 07:00",
     "media": "video"
-  },
-  {
-    "id": "2016599758219927918",
-    "author": "David J Carr",
-    "handle": "djc1805",
-    "text": "RT @JoinBlind: Nothing calms a team like ‘ignore the layoffs and work harder https://t.co/IWgPM5S08u",
-    "url": "https://x.com/djc1805/status/2016599758219927918",
-    "likes": 0,
-    "retweets": 10,
-    "category": "Tech Biz",
-    "addedAt": 1769630408506,
-    "addedDate": "2026-01-29 07:00",
-    "media": "image"
-  },
-  {
-    "id": "2016599173118734653",
-    "author": "Financial Times",
-    "handle": "FT",
-    "text": "Opinion: Silicon Valley has for years embraced hustle culture. But the 'grindcore' lifestyle has taken on a fresh intensity against the backdrop of a frantic San Francisco AI arms race. https://t.co/PwV7oAtP8t https://t.co/Vh2QwldBEp",
-    "url": "https://x.com/FT/status/2016599173118734653",
-    "likes": 5,
-    "retweets": 0,
-    "category": "Chips",
-    "addedAt": 1769630408506,
-    "addedDate": "2026-01-29 07:00",
-    "media": "image"
-  },
-  {
-    "id": "2016597900269097365",
-    "author": "Campaign",
-    "handle": "Campaignmag",
-    "text": "Google criticised after blocking measurement comparing YouTube and TV https://t.co/OBTJsOH8hB",
-    "url": "https://x.com/Campaignmag/status/2016597900269097365",
-    "likes": 0,
-    "retweets": 0,
-    "category": "Tech",
-    "addedAt": 1769630408506,
-    "addedDate": "2026-01-29 07:00",
-    "media": null
   }
 ]
