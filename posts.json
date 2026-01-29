@@ -1,5 +1,31 @@
 [
   {
+    "id": "2016773796938527149",
+    "author": "Financial Times",
+    "handle": "FT",
+    "text": "Top chipmakers to boost capital spending amid AI-driven supply squeeze https://t.co/NgXi9tmvGE",
+    "url": "https://x.com/FT/status/2016773796938527149",
+    "likes": 2,
+    "retweets": 0,
+    "category": "Chips",
+    "addedAt": 1769671810643,
+    "addedDate": "2026-01-29 18:30",
+    "media": null
+  },
+  {
+    "id": "2016771775200448635",
+    "author": "Gabriel",
+    "handle": "gbrl_dick",
+    "text": "RT @JeromySonne: Clicking allow over and over as I instruct Claude Code to Ralph Wiggum the SEC Edgar API until the stock market crashes.",
+    "url": "https://x.com/gbrl_dick/status/2016771775200448635",
+    "likes": 0,
+    "retweets": 1,
+    "category": "Scandal",
+    "addedAt": 1769671810643,
+    "addedDate": "2026-01-29 18:30",
+    "media": null
+  },
+  {
     "id": "2016766548095209914",
     "author": "Rohan Paul",
     "handle": "rohanpaul_ai",
@@ -2740,38 +2766,5 @@
     "addedAt": 1769630408506,
     "addedDate": "2026-01-29 07:00",
     "media": null
-  },
-  {
-    "id": "2016594919314354666",
-    "author": "Gergely Orosz",
-    "handle": "GergelyOrosz",
-    "text": "Anthropic making it clear it’s a fake screenshot:\n\nhttps://t.co/SqzvlFNodw",
-    "url": "https://x.com/GergelyOrosz/status/2016594919314354666",
-    "likes": 12,
-    "retweets": 1,
-    "category": "AI",
-    "addedAt": 1769630408506,
-    "addedDate": "2026-01-29 07:00",
-    "media": null
-  },
-  {
-    "id": "2016594250096398734",
-    "author": "Steve Hou",
-    "handle": "stevehou",
-    "text": "One of my favorite Google products! 🥰",
-    "url": "https://x.com/stevehou/status/2016594250096398734",
-    "likes": 1,
-    "retweets": 0,
-    "category": "Tech",
-    "addedAt": 1769628610501,
-    "addedDate": "2026-01-29 06:30",
-    "media": null,
-    "quotedTweet": {
-      "author": "Nick Fox",
-      "handle": "thefox",
-      "text": "Just shipped a state-of-the-art model upgrade for Google Translate!! 🚀\n- Smarter text translations in the Translate app, web &amp; Search\n- Natural real-time translations with 🎧 on for Live Translate\n- Expanded language learning in the app – just tap Practice\n\nGet the app here: https://t.co/TRy9KKxN50",
-      "url": "https://x.com/thefox/status/1999911814369595685",
-      "media": "video"
-    }
   }
 ]
