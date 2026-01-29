@@ -1,5 +1,64 @@
 [
   {
+    "id": "2016892035387498848",
+    "author": "Steve Hou",
+    "handle": "stevehou",
+    "text": "Even Microsoft is too much soft.",
+    "url": "https://x.com/stevehou/status/2016892035387498848",
+    "likes": 1,
+    "retweets": 0,
+    "category": "Tech",
+    "addedAt": 1769700609458,
+    "addedDate": "2026-01-30 02:30",
+    "media": null,
+    "quotedTweet": {
+      "author": "SuspendedCap",
+      "handle": "ContrarianCurse",
+      "text": "Sheesh what a disaster. Software might actually be toast",
+      "url": "https://x.com/ContrarianCurse/status/2016873130032320969",
+      "media": null
+    }
+  },
+  {
+    "id": "2016889975112159516",
+    "author": "Rohan Paul",
+    "handle": "rohanpaul_ai",
+    "text": "RT @rohanpaul_ai: Google just introduced Gemini 3-powered AI agents to Chrome. \n\n- A new auto-browse feature for AI Pro and Ultra users can…",
+    "url": "https://x.com/rohanpaul_ai/status/2016889975112159516",
+    "likes": 0,
+    "retweets": 8,
+    "category": "AI",
+    "addedAt": 1769700609458,
+    "addedDate": "2026-01-30 02:30",
+    "media": null
+  },
+  {
+    "id": "2016889889502220440",
+    "author": "Rohan Paul",
+    "handle": "rohanpaul_ai",
+    "text": "RT @rohanpaul_ai: Today’s edition of my newsletter just went out.\n\n🔗 https://t.co/15w7Oyb1M6\n\n👨‍🔧 OpenAI’s newest product lets you vibe you…",
+    "url": "https://x.com/rohanpaul_ai/status/2016889889502220440",
+    "likes": 0,
+    "retweets": 5,
+    "category": "AI",
+    "addedAt": 1769700609458,
+    "addedDate": "2026-01-30 02:30",
+    "media": null
+  },
+  {
+    "id": "2016890372945850583",
+    "author": "9to5Mac",
+    "handle": "9to5mac",
+    "text": "AirTag’s best feature is now on Apple Watch, here’s how to set it up https://t.co/4D19CRz92H by @iryantldr",
+    "url": "https://x.com/9to5mac/status/2016890372945850583",
+    "likes": 16,
+    "retweets": 2,
+    "category": "Tech",
+    "addedAt": 1769700609458,
+    "addedDate": "2026-01-30 02:30",
+    "media": null
+  },
+  {
     "id": "2016887233706369072",
     "author": "ADWEEK",
     "handle": "Adweek",
@@ -2720,58 +2779,6 @@
     "category": "AI",
     "addedAt": 1769641209584,
     "addedDate": "2026-01-29 10:00",
-    "media": null
-  },
-  {
-    "id": "2016642487868412067",
-    "author": "0.005 Seconds (3/694)",
-    "handle": "seconds_0",
-    "text": "RT @AndrewCurran_: There was great interest in where Jerry Tworek was headed after leaving OpenAI. The Information is reporting that his st…",
-    "url": "https://x.com/seconds_0/status/2016642487868412067",
-    "likes": 0,
-    "retweets": 4,
-    "category": "AI",
-    "addedAt": 1769641209584,
-    "addedDate": "2026-01-29 10:00",
-    "media": null
-  },
-  {
-    "id": "2016638452952158312",
-    "author": "Rohan Paul",
-    "handle": "rohanpaul_ai",
-    "text": "RT @rohanpaul_ai: OpenAI’s newest product lets you vibe your way through coding science. Will be a huge time saver for scientific work.\n\nPr…",
-    "url": "https://x.com/rohanpaul_ai/status/2016638452952158312",
-    "likes": 0,
-    "retweets": 8,
-    "category": "AI",
-    "addedAt": 1769639408072,
-    "addedDate": "2026-01-29 09:30",
-    "media": null
-  },
-  {
-    "id": "2003813912542597142",
-    "author": "Cato Networks",
-    "handle": "CatoNetworks",
-    "text": "AISec vendors say they can secure your AI environment. This neutral set of ready-to-ask questions helps CISOs validate those claims by examining architecture and capabilities across four AI security domains—so you can confirm what secures the AI you use, build, and run.",
-    "url": "https://x.com/CatoNetworks/status/2003813912542597142",
-    "likes": 38,
-    "retweets": 5,
-    "category": "Scandal",
-    "addedAt": 1769639408073,
-    "addedDate": "2026-01-29 09:30",
-    "media": null
-  },
-  {
-    "id": "2016638967840391234",
-    "author": "WIRED",
-    "handle": "WIRED",
-    "text": "New information from DHS documents shows ICE is now using AI tools from Palantir to help process tips submitted to its public tipline by pulling summaries and quick takeaways to help agents act faster. https://t.co/1TtRUwLVHj",
-    "url": "https://x.com/WIRED/status/2016638967840391234",
-    "likes": 2,
-    "retweets": 5,
-    "category": "AI",
-    "addedAt": 1769639408073,
-    "addedDate": "2026-01-29 09:30",
     "media": null
   }
 ]
